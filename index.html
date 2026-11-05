@@ -17,11 +17,75 @@
     <meta name="apple-mobile-web-app-title" content="NeliPlay" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="canonical" href="https://neliplay.com/" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Schema.org Structured Data for Google Search Console & Knowledge Graph -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://neliplay.com/#organization",
+          "name": "NeliPlay",
+          "alternateName": ["NeliPlay Swahili", "Baynith Cinema"],
+          "url": "https://neliplay.com",
+          "logo": "https://neliplay.com/pwa-512x512.png",
+          "description": "Your Home of Swahili Entertainment. East Africa's premier free digital streaming platform.",
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Baynith Alex",
+              "alternateName": "Alex Michael Baineth",
+              "jobTitle": "Founder & Chairperson",
+              "sameAs": [
+                "https://nelinews1.blogspot.com/2026/10/meet-baynith-alex-founder-building.html",
+                "https://nelinews1.blogspot.com/2026/10/meet-founders-behind-neliplay.html"
+              ]
+            },
+            {
+              "@type": "Person",
+              "name": "Nelson Betram Candidus",
+              "jobTitle": "Co-Founder & President of Nelify Commercial",
+              "sameAs": [
+                "https://nelinews1.blogspot.com/2026/10/meet-nelson-betram-candidus-co-founder.html",
+                "https://nelinews1.blogspot.com/2026/10/meet-founders-behind-neliplay.html"
+              ]
+            }
+          ],
+          "memberOf": {
+            "@type": "Organization",
+            "name": "NeliPlay Partner Network",
+            "member": [
+              {
+                "@type": "Store",
+                "name": "Kinoma Store",
+                "description": "Technology & digital accessories partner located at Sinza Makaburini, Igesa Road, Dar es Salaam, Tanzania",
+                "sameAs": "https://nelinews1.blogspot.com/2026/10/meet-neliplay-partner-network-kinoma.html"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://neliplay.com/#website",
+          "url": "https://neliplay.com",
+          "name": "NeliPlay Swahili",
+          "publisher": { "@id": "https://neliplay.com/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://neliplay.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="text-slate-900 font-sans selection:bg-[#FF6A00] selection:text-white antialiased overflow-x-hidden">
     <div id="root"></div>

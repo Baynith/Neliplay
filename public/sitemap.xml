@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://neliplay.com/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movies</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/genres</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/search</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/about</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/contact</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/terms</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/privacy</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/never-a-thief</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/ui5Ujx256vAI5JbXzeTGVwMkVhs.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Never a Thief - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[An insurance investigator infiltrates a Pacific island relic-smuggling gang with his lock-picking skills, navigates perilous heists to help police bust the syndicate, and unravels ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/never-a-thief</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/never-a-thief</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/invincible-swordsman</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/7CJ38uqEGEC0IkqVUE5FSzWywAj.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Invincible Swordsman - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Linghu Chong, a swordsman longing to leave the martial arts world, is drawn back into the clash between good and evil. On his journey, he unexpectedly crosses paths with Dongfang B...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/invincible-swordsman</video:player_loc>
+      <video:duration>1h 58m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/invincible-swordsman</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/inside-furioza</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/dbe1zKVKNBIczdmRcm7jxEphYLz.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Inside Furioza - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In the wake of murder, new Furioza leader Golden claims the reins of his violent and formidable hooligan gang and takes on a new focus across borders....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/inside-furioza</video:player_loc>
+      <video:duration>2h 46m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/inside-furioza</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/affinity</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/WKwQOPh2mQPRL12jSu2yFHk4A7.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Affinity - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Chilean martial-arts star Marko Zaror is Bruno, an ex-SEAL struggling with PTSD. He lives a life in fear of his demons until one day when he discovers a beautiful woman with no pas...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/affinity</video:player_loc>
+      <video:duration>1h 21m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/affinity</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/play-dirty</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Play Dirty - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world's richest man....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/play-dirty</video:player_loc>
+      <video:duration>2h 8m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/play-dirty</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-clouds</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w600_and_h900_face/lH54bfA72eJSEPK96lxLn8J49tP.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Clouds - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Pablo Prieto leads a gang of thieves whose time is running out. Hunted by a relentless judge, will Pablo be able to escape his fate or will he have to pay for his crimes?...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-clouds</video:player_loc>
+      <video:duration>1h 41m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-clouds</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-twits</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/zNP1nMRFqa9qAkpCkLeHa1V7kDR.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Twits - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[When the meanest, nastiest villains pull a trick to take over their town, two brave children team up with a family of magical animals to bring them down....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-twits</video:player_loc>
+      <video:duration>1h 39m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-twits</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/stolen-girl</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/njU663VbT88zZjsJYizfWcam6sS.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Stolen Girl - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In 1993, Maureen’s six-year-old daughter Amina is snuck out of the country by her ex-husband, Karim. After years of unsuccessful attempts to find her, Maureen intersects with a pro...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/stolen-girl</video:player_loc>
+      <video:duration>1h 50m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/stolen-girl</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/death-stranding</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/fH8RLXpAT1V32DebOdPCv45rbuZ.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Death Stranding - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Around the turn of the millennium and with the entire city in chaos, the government decides to eradicate the corrupt underground entertainment industry and money laundering practic...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/death-stranding</video:player_loc>
+      <video:duration>1h 37m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/death-stranding</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/minions-monsters</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Minions & Monsters - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/minions-monsters</video:player_loc>
+      <video:duration>1h 30m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/minions-monsters</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-devil-s-mouth</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Devil's Mouth - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in thei...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-devil-s-mouth</video:player_loc>
+      <video:duration>1h 46m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-devil-s-mouth</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-debt-collector</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Debt Collector - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Tormented by past mistakes and a terminal diagnosis, an ex-debt collector returns to the underworld to protect the victims of a violent organization....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-debt-collector</video:player_loc>
+      <video:duration>2h 14m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-debt-collector</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/colony</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/tN799oUR0f1gUKDYdMNrDaY7I51.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Colony - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/colony</video:player_loc>
+      <video:duration>2h 3m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/colony</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/evolution</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/8tMZOnlFUa6zxlEF84QfghXnjuD.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Evolution - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[When an alien substance mixes Zoe’s DNA with that of her exotic pets, a hilarious adventure begins where humans turn into animals, animals turn into humans, and everyone must come ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/evolution</video:player_loc>
+      <video:duration>1h 34m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/evolution</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/72-hours</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[72 HOURS - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[To save his career, a 40-year-old ad exec joins a crew of twentysomethings for a wild Miami bachelor party after they mistakenly add him to a group chat....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/72-hours</video:player_loc>
+      <video:duration>1h 45m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/72-hours</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/no-ordinary-heist</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[No Ordinary Heist - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Inspired by the true 2004 Northern Bank robbery, two feuding bank employees are forced to execute Ireland’s biggest heist after criminals kidnap their families and threaten to kill...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/no-ordinary-heist</video:player_loc>
+      <video:duration>1h 39m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/no-ordinary-heist</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/husbands-in-action</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/ciLsGoyr0B8demTLDbLJmEUOHI5.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Husbands in Action - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A detective teams up with his ex-wife's new husband to chase down her kidnappers. Can this unlikely duo put aside their differences for one wild rescue?...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/husbands-in-action</video:player_loc>
+      <video:duration>1h 50m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/husbands-in-action</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/apex</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Apex - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A grieving woman pushing her limits on a solo adventure in the Australian wild is ensnared in a twisted game with a cunning killer who thinks she's prey....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/apex</video:player_loc>
+      <video:duration>1h 36m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/apex</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/steppenwolf</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/gbtZpT3VfyUmSlga3wWHDtBJ7kW.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Steppenwolf - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Tamara is searching for her missing son in a small town consumed by riots and violence. In a desperate attempt to get him back, she decides to offer a reward to an amoral former in...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/steppenwolf</video:player_loc>
+      <video:duration>1h 42m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/steppenwolf</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/disclosure-day</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Disclosure Day - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phe...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/disclosure-day</video:player_loc>
+      <video:duration>2h 26m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/disclosure-day</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/wish</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/nesuSdJakNkf0zs7OfoasB6Clxf.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Wish - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a mo...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/wish</video:player_loc>
+      <video:duration>1h 35m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/wish</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-spongebob-movie-search-for-squarepants</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The SpongeBob Movie: Search for SquarePants - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventur...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-spongebob-movie-search-for-squarepants</video:player_loc>
+      <video:duration>1h 28m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-spongebob-movie-search-for-squarepants</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/pets-on-a-train</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/b10qy1KwrfmH0MGS2rBUJ0BxgYB.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Pets on a Train - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[When a train unexpectedly starts up, taking only pets with it, the animals discover that Hans, a badger with a grudge is behind it all. While the crash seems inevitable, the animal...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/pets-on-a-train</video:player_loc>
+      <video:duration>1h 26m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/pets-on-a-train</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/zootopia-2</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Zootopia 2 - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/zootopia-2</video:player_loc>
+      <video:duration>1h 48m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/zootopia-2</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/in-your-dreams</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[In Your Dreams - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/in-your-dreams</video:player_loc>
+      <video:duration>1h 27m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/in-your-dreams</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/gladiator-underground</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/qLN16AeIjS5P5Kk5B6pBi1Mh1mi.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Gladiator Underground - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Two brothers compete in the world's deadliest underground fighting tournament, where they must decide whether to play by the rules or to cast their honor aside and team up to bring...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/gladiator-underground</video:player_loc>
+      <video:duration>1h 31m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/gladiator-underground</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-orphans</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/gEV2G1oXTJVSFZLgMdUwVLTvWZE.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Orphans - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Gab and Driss, childhood friends on bad terms since they left the orphanage, now have opposite lives - one is a cop with the IGPN, the other a fixer for thugs. When their first lov...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-orphans</video:player_loc>
+      <video:duration>1h 35m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-orphans</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-rip</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Rip - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-rip</video:player_loc>
+      <video:duration>1h 53m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-rip</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/anaconda</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/pPfsEXzfk2URkQ1OxhUShAXdxMr.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Anaconda - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A struggling circus crew gets deceived by its former partner, as it embarks on a tour in Thailand. During the journey through a Southeast Asian rainforest, they encounter attacks b...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/anaconda</video:player_loc>
+      <video:duration>1h 24m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/anaconda</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-internship</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/fYqSOkix4rbDiZW0ACNnvZCpT6X.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Internship - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A CIA-trained assassin recruits other graduates from her secret childhood program, The Internship, to violently destroy the organization. The CIA fights back with deadly force....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-internship</video:player_loc>
+      <video:duration>1h 31m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-internship</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/dust-bunny</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Dust Bunny - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Ten-year-old Aurora asks her hitman neighbor to kill the monster under her bed that she claims ate her family. To protect her, he must battle an onslaught of assassins while accept...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/dust-bunny</video:player_loc>
+      <video:duration>1h 46m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/dust-bunny</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/killer-whale</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/xC6zdIoIHjhOIFmjNyGgtzhuhiF.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Killer Whale - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Follows best friends Maddie and Trish as they find themselves trapped in a remote lagoon with the dangerous killer whale named Ceto....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/killer-whale</video:player_loc>
+      <video:duration>1h 29m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/killer-whale</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/dead-to-rights</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/rx9xTly73NssFHPg9gKrX9tJdDI.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Dead to Rights - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[During the 1937 Nanjing Massacre, a postman poses as a photo developer, helping Japanese forces while secretly sheltering Chinese refugees. He later risks his life evacuating them ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/dead-to-rights</video:player_loc>
+      <video:duration>2h 17m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/dead-to-rights</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-jurassic-games-extinction</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/oaspw8GHJHGJRDvVVERmt8iDb5K.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Jurassic Games: Extinction - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In this thrilling sequel to The Jurassic Games, 10 death row inmates enter a deadly VR show to battle dinosaurs for a second chance at life. But when the system malfunctions, the c...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-jurassic-games-extinction</video:player_loc>
+      <video:duration>1h 42m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-jurassic-games-extinction</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-avenger</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/pTCn0tRqC13guWjgTtjPGHV3Bw6.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Avenger - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Aeneas leads escapees from the Trojan war to new land in Italy, and must deal with new threats to his people....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-avenger</video:player_loc>
+      <video:duration>1h 45m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-avenger</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/hi-five</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/xhSn3NkcBpqzUx9NOYa6CdSwwXZ.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Hi-Five - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In the dead of night, a body donated for organ transplants mysteriously disintegrates into ashes. Soon after, five recipients, given a heart, corneas, lungs, liver, and kidneys, be...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/hi-five</video:player_loc>
+      <video:duration>1h 59m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/hi-five</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/baby-assassins</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/4A3hk4sT4EETeu7XqbLKFDFtFFu.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Baby Assassins - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Two high school girls who are about to graduate also happen to be highly-skilled assassins. When the organization they work for orders them to share a room, their relationship quic...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/baby-assassins</video:player_loc>
+      <video:duration>1h 35m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/baby-assassins</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-bad-guys-2</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Bad Guys 2 - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of crim...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-bad-guys-2</video:player_loc>
+      <video:duration>1h 44m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-bad-guys-2</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/bride-hard</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/3mExdWLSxAiUCb4NMcYmxSkO7n4.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Bride Hard - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Sam is a secret agent whose toughest mission to date is pleasing her bride-to-be best friend at a lavish destination wedding. When a team of mercenaries crashes the party and takes...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/bride-hard</video:player_loc>
+      <video:duration>1h 45m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/bride-hard</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/forgive-us-all</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/bT7sMDsvWNeIGgZ6ZsisNdBcHdq.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Forgive Us All - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In a post-apocalyptic world, a virus has transformed humans into violently deranged cannibals. A bereaved mother has lost everything and takes refuge in an isolated mountain cabin,...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/forgive-us-all</video:player_loc>
+      <video:duration>1h 33m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/forgive-us-all</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/battle-of-the-wolf</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/oyH3Lj4iIqhaSqK4JRRPE79m3vS.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Battle of the Wolf - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Flight attendants Zhang Zhiyong and Yang Man team up to battle international criminals on a flight home, protecting passengers and thwarting a terrorist plot....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/battle-of-the-wolf</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/battle-of-the-wolf</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/under-fire-2025</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://m.media-amazon.com/images/M/MV5BMzgyNTEzNGEtMjBkZi00NTNmLWI1NmMtMTdjMjBjMzk1ZGExXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Under Fire (2025) - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[At a Mexican border drug deal, dealers Griff and Abbott meet for an exchange. Both unexpectedly flash badges - Griff's FBI, Abbott's DEA - revealing they're unknowingly working the...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/under-fire-2025</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/under-fire-2025</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/bang</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/8SUzKOqe2ectvhYdSnR7Vq2F3n1.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Bang - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Follows a ruthless hitman who, after narrowly escaping a fatal attempt on his life, betrays his gang in an effort to find forgiveness but ends up becoming a target himself....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/bang</video:player_loc>
+      <video:duration>1h 28m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/bang</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/elio</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Elio - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergala...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/elio</video:player_loc>
+      <video:duration>1h 38m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/elio</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/president-down</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/fGhd4DurS1rhmNOb7b9EeobQTPe.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[President Down - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A secret message warning that the President's pacemaker is compromised sends her team scrambling to stop an unseen enemy demanding $100M by midnight....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/president-down</video:player_loc>
+      <video:duration>1h 36m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/president-down</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/prisoner-of-war</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/uHNuUIdF35dRSLQQ5Ej0aOhmvB3.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Prisoner of War - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargaine...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/prisoner-of-war</video:player_loc>
+      <video:duration>1h 53m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/prisoner-of-war</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/yadang-the-snitch</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/y7dsDbG8zVWkrkyOhA6ckZXX1uC.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Yadang: The Snitch - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Navigating both the criminal underworld and law enforcement agencies, professional snitches called "yadang" provide covert information about the drug world to prosecutors and polic...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/yadang-the-snitch</video:player_loc>
+      <video:duration>2h 3m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/yadang-the-snitch</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/sisu-road-to-revenge</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/roCMOuMQ55Z2TxVx1vZZTevlo0n.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Sisu: Road to Revenge - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Returning to the house where his family was brutally murdered during the war, "the man who refuses to die" dismantles it, loads it on a truck, and is determined to rebuild it somew...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/sisu-road-to-revenge</video:player_loc>
+      <video:duration>1h 29m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/sisu-road-to-revenge</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/survival</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Survival - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[The story of the Northeast Anti-Japanese Allied Forces' rearguard regiment's breakout, reorganization and return to the Northeast battlefield from 1938 to 1945....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/survival</video:player_loc>
+      <video:duration>1h 47m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/survival</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/escobank</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/5G0pPDxAKWgQy24NHBGl8LYPxIH.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Escobank - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A ragtag group of misfits, veterans and ex-cons embark on a perilous journey in the jungles of Colombia to find the buried barrels of cash left behind by legendary drug kingpin Pab...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/escobank</video:player_loc>
+      <video:duration>1h 37m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/escobank</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/predator-badlands</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Predator: Badlands - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/predator-badlands</video:player_loc>
+      <video:duration>1h 47m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/predator-badlands</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/my-super-heroine</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/iCXGcf17popICEjdeJ4BNmtnuVp.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[My Super Heroine - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In the early days of the Republic, legendary martial artist Ye Ruzhou suffers a severe injury, losing her memory and winding up in the impoverished alley of Minfu Lane. By a twist ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/my-super-heroine</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/my-super-heroine</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-pickup</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Pickup - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-pickup</video:player_loc>
+      <video:duration>1h 34m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-pickup</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/hostile-takeover</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Hostile Takeover - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Follows Pete, a professional hitman, as he faces a group of assassins after the boss of a crime syndicate suspects disloyalty due to his attendance at Workaholics Anonymous meeting...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/hostile-takeover</video:player_loc>
+      <video:duration>1h 29m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/hostile-takeover</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/40-acres</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/3zCEo21Y9wVFBgGhgDVWCyvMZ47.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[40 Acres - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Hailey Freeman and her family are the last descendants of African American farmers who settled in rural Canada after the Civil War. In a famine-decimated near future, they now stru...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/40-acres</video:player_loc>
+      <video:duration>1h 53m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/40-acres</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/dangerous-animals</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Dangerous Animals - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feed...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/dangerous-animals</video:player_loc>
+      <video:duration>1h 38m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/dangerous-animals</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/ghost-killer</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/uKIG4f25QHUpBmBv0MPWOzKMGAM.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Ghost Killer - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[After being possessed by the ghost of vengeful hitman Kudo, college student Fumika Matsuoka agrees to help him finish his quest for revenge from beyond the grave....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/ghost-killer</video:player_loc>
+      <video:duration>1h 45m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/ghost-killer</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/kpop-demon-hunters</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[KPop Demon Hunters - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/kpop-demon-hunters</video:player_loc>
+      <video:duration>1h 36m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/kpop-demon-hunters</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/a-line-of-fire</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/jSG2mg1998DUAam6X9EA6SeJmqD.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[A Line of Fire - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[After working as a secret agent in the FBI for ten years, Jack 'Cash' Conry left it all behind after his wife passed in order to dedicate himself to his two daughters. Despite a fu...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/a-line-of-fire</video:player_loc>
+      <video:duration>1h 26m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/a-line-of-fire</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/red-sonja</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/aE3yh4y0h96CZZpLo0UDFMWZAA9.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Red Sonja - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A young girl rises from the ashes of tragedy to become the most feared warrior woman of all time: the She-Devil with a Sword....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/red-sonja</video:player_loc>
+      <video:duration>1h 51m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/red-sonja</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/mission-impossible-the-final-reckoning</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Mission: Impossible - The Final Reckoning - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/mission-impossible-the-final-reckoning</video:player_loc>
+      <video:duration>2h 50m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/mission-impossible-the-final-reckoning</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/superheroes-on-a-motorcycle-ride-over-the-sea-along-the-supper-spider-man-bridge-gta-5</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sD-JEof5SY8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spider-Man Bridge GTA 5 - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[#gtalevelup #gtaventure #gta5funnymoments #gtaventure #gtalevelup #gta6 #gta6 #gta5funnymoments #grandtheftautoV Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spi...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/superheroes-on-a-motorcycle-ride-over-the-sea-along-the-supper-spider-man-bridge-gta-5</video:player_loc>
+      <video:duration>2h 7m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/superheroes-on-a-motorcycle-ride-over-the-sea-along-the-supper-spider-man-bridge-gta-5</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/spidey-s-best-moments</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/bqSgbSmrJdk/mqdefault.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Spidey's Best Moments - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Go webs go! Watch Marvel's Spidey and his Amazing Friends: Spidey, Ghost Spider and Spin save the day in these best moments! ...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/spidey-s-best-moments</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/spidey-s-best-moments</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/goten-s-great-adventure-dragon-ballz-movie-2026</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://poaflix.b-cdn.net/images/verticalBanner-1789131945540.webp</video:thumbnail_loc>
+      <video:title><![CDATA[Goten's Great Adventure : Dragon Ballz Movie (2026) - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[GOTEN’S GREAT ADVENTURE 🔥⚡ Get ready for an incredible adventure filled with action, powerful enemies, friendship, comedy, and unexpected battles! When a new adventure begins, Got...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/goten-s-great-adventure-dragon-ballz-movie-2026</video:player_loc>
+      <video:duration>1h 22m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/goten-s-great-adventure-dragon-ballz-movie-2026</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/mutiny</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Mutiny - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an inter...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/mutiny</video:player_loc>
+      <video:duration>1h 36m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/mutiny</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/malaikat-malam</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/5fCCZlanV8DMGhz9vGKIqYVPHaG.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Malaikat Malam - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Azam, a motorcycle workshop owner, balances his daily life activities between caring for his older brother who struggles with depression, participating in illegal street racing, an...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/malaikat-malam</video:player_loc>
+      <video:duration>1h 51m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/malaikat-malam</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/for-my-country</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/zvRXLLJSNdonMkAlyrmCX8sqYFy.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[For My Country - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Tazama filamu ya kusisimua ya For My Country yenye simulizi ya kuvutia kwa lugha ya Kiswahili safi kabisa.]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/for-my-country</video:player_loc>
+      <video:duration>2h 0m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/for-my-country</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/badland-rising</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/u7rRl06V3320RSeBcircpaeePnr.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Badland Rising - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[An ordinary bloke embarks on a 19-hour drive home, unaware of being pursued by two unhinged criminals. Once he discovers their motive, his journey turns into a brutal fight for sur...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/badland-rising</video:player_loc>
+      <video:duration>1h 37m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/badland-rising</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/alarum</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/ckyYZf5cGTSOwF8LWIRqeThyh18.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Alarum - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Two married spies caught in the crosshairs of an international intelligence network will stop at nothing to obtain a critical asset. Joe and Lara are agents living off the grid who...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/alarum</video:player_loc>
+      <video:duration>1h 35m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/alarum</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/blade-of-the-47-ronin</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/bIp7UbNKaBBxA9086jLCCRuXA6W.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Blade of the 47 Ronin - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A new class of warriors emerges among the Samurai clans to keep a sought-after sword from falling into the wrong hands....]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/blade-of-the-47-ronin</video:player_loc>
+      <video:duration>1h 46m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/blade-of-the-47-ronin</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-mongoose</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Mongoose - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-mongoose</video:player_loc>
+      <video:duration>1h 39m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-mongoose</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/motor-city</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Motor City - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[In 1970s Detroit, John Miller falls for a local gangster's girl and lands in prison for a crime he didn't commit. With his life ruined, Miller plots revenge against the man who too...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/motor-city</video:player_loc>
+      <video:duration>1h 44m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/motor-city</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/mayday</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[Mayday - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agen...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/mayday</video:player_loc>
+      <video:duration>1h 51m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/mayday</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/the-runner</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[The Runner - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[Maia Marten, a brilliant London lawyer, has her life shattered by a single call on her morning run: her son has been taken. To get him back, she must keep running, obey every ruthl...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/the-runner</video:player_loc>
+      <video:duration>1h 26m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/the-runner</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://neliplay.com/movie/paw-patrol-the-dino-movie</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <video:video>
+      <video:thumbnail_loc>https://image.tmdb.org/t/p/w500/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg</video:thumbnail_loc>
+      <video:title><![CDATA[PAW Patrol: The Dino Movie - NeliPlay Swahili]]></video:title>
+      <video:description><![CDATA[The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their b...]]></video:description>
+      <video:player_loc>https://neliplay.com/watch/paw-patrol-the-dino-movie</video:player_loc>
+      <video:duration>1h 28m</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://neliplay.com/watch/paw-patrol-the-dino-movie</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+</urlset>

@@ -15,9 +15,11 @@ import { NeliPlayer } from './components/NeliPlayer';
 import { GenreExplorer } from './components/GenreExplorer';
 import { MoviesCatalogue } from './components/MoviesCatalogue';
 import { SearchPage } from './components/SearchPage';
+import { AboutPage } from './components/AboutPage';
+import { InfoPage } from './components/InfoPage';
 import { Footer } from './components/Footer';
 
-export type PageView = 'home' | 'movies' | 'genres' | 'details' | 'watch' | 'search';
+export type PageView = 'home' | 'movies' | 'genres' | 'details' | 'watch' | 'search' | 'about' | 'contact' | 'terms' | 'privacy';
 
 // Helper to determine route on initial load or browser refresh
 function getRouteFromLocation(movies: Movie[]): {
@@ -63,7 +65,7 @@ function getRouteFromLocation(movies: Movie[]): {
     }
   }
 
-  // 3. Tab routes: /movies, /genres, /search
+  // 3. Tab & Info routes: /movies, /genres, /search, /about, /contact, /terms, /privacy
   if (path === '/movies' || searchParams.get('tab') === 'movies') {
     return { page: 'movies', movie: null, query: '', genre: 'All' };
   }
@@ -74,6 +76,22 @@ function getRouteFromLocation(movies: Movie[]): {
 
   if (path === '/search' || searchParams.has('q')) {
     return { page: 'search', movie: null, query: searchParams.get('q') || '', genre: 'All' };
+  }
+
+  if (path === '/about' || searchParams.get('tab') === 'about') {
+    return { page: 'about', movie: null, query: '', genre: 'All' };
+  }
+
+  if (path === '/contact') {
+    return { page: 'contact', movie: null, query: '', genre: 'All' };
+  }
+
+  if (path === '/terms') {
+    return { page: 'terms', movie: null, query: '', genre: 'All' };
+  }
+
+  if (path === '/privacy') {
+    return { page: 'privacy', movie: null, query: '', genre: 'All' };
   }
 
   return { page: 'home', movie: null, query: '', genre: 'All' };
@@ -111,10 +129,22 @@ export default function App() {
       title = 'Katalogi ya Filamu | NeliPlay Swahili';
     } else if (page === 'genres') {
       targetUrl = '/genres';
-      title = 'Aina za Filamu | NeliPlay Swahili';
+      title = 'Gundua kwa Aina | NeliPlay Swahili';
     } else if (page === 'search') {
       targetUrl = searchQuery ? `/search?q=${encodeURIComponent(searchQuery)}` : '/search';
       title = 'Tafuta Filamu | NeliPlay Swahili';
+    } else if (page === 'about') {
+      targetUrl = '/about';
+      title = 'Kuhusu NeliPlay & NeliPlay Swahili | About Us';
+    } else if (page === 'contact') {
+      targetUrl = '/contact';
+      title = 'Wasiliana Nasi | NeliPlay Swahili';
+    } else if (page === 'terms') {
+      targetUrl = '/terms';
+      title = 'Vigezo na Masharti | NeliPlay Swahili';
+    } else if (page === 'privacy') {
+      targetUrl = '/privacy';
+      title = 'Sera ya Faragha | NeliPlay Swahili';
     }
 
     if (push && typeof window !== 'undefined' && window.location.pathname !== targetUrl) {
@@ -236,7 +266,7 @@ export default function App() {
       {/* 1. Universal Top Header */}
       <Header
         currentTab={
-          currentPage === 'home' || currentPage === 'movies' || currentPage === 'genres' || currentPage === 'search'
+          currentPage === 'home' || currentPage === 'movies' || currentPage === 'genres' || currentPage === 'search' || currentPage === 'about'
             ? currentPage
             : 'home'
         }
@@ -458,6 +488,23 @@ export default function App() {
             language={language}
             allMovies={allMovies}
             onSelectMovie={handlePlayMovie}
+          />
+        )}
+
+        {/* PAGE 7: ABOUT NELIPLAY & FOUNDERS */}
+        {currentPage === 'about' && (
+          <AboutPage
+            onBackToHome={() => navigate('home', null, true)}
+            language={language}
+          />
+        )}
+
+        {/* PAGE 8: LEGAL & CONTACT (Terms, Privacy, Contact) */}
+        {(currentPage === 'terms' || currentPage === 'privacy' || currentPage === 'contact') && (
+          <InfoPage
+            type={currentPage}
+            onBackToHome={() => navigate('home', null, true)}
+            language={language}
           />
         )}
       </main>

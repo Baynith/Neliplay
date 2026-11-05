@@ -4,8 +4,8 @@ import { Movie } from '../types/movie';
 import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
-  currentTab: 'home' | 'movies' | 'genres' | 'search';
-  onSelectTab: (tab: 'home' | 'movies' | 'genres' | 'search') => void;
+  currentTab: 'home' | 'movies' | 'genres' | 'search' | 'about';
+  onSelectTab: (tab: any) => void;
   language: 'sw' | 'en';
   onToggleLanguage: () => void;
   onSelectMovie: (movie: Movie) => void;
@@ -100,6 +100,20 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 {language === 'sw' ? 'Aina za Filamu' : 'Genres'}
+              </button>
+
+              <button
+                onClick={() => {
+                  onSelectTab('about');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className={`relative py-1 transition-colors cursor-pointer ${
+                  currentTab === 'about'
+                    ? 'text-[#FF6A00] font-bold after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-gradient-to-r after:from-[#FF6A00] after:to-[#FF2D87]'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                {language === 'sw' ? 'Kuhusu Sisi' : 'About Us'}
               </button>
             </nav>
           </div>

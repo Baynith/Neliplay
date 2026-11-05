@@ -1,0 +1,20 @@
+# Robots.txt for NeliPlay & NeliPlay Swahili
+# Optimized for Google Search Console, Bing Webmaster, and Search Indexing
+
+User-agent: *
+Allow: /
+Allow: /movie/*
+Allow: /watch/*
+Allow: /movies
+Allow: /genres
+Allow: /search
+Allow: /about
+Allow: /contact
+Allow: /terms
+Allow: /privacy
+
+# Block internal stream proxy from indexing
+Disallow: /api/stream
+
+# Host & Sitemap reference
+Sitemap: https://neliplay.com/sitemap.xml
