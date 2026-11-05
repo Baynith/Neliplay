@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Home, Film, LayoutGrid, Search, Globe } from 'lucide-react';
 import { Movie } from '../types/movie';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   currentTab: 'home' | 'movies' | 'genres' | 'search';
@@ -104,7 +105,10 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Right Side: Quick Search Action & Language Toggle */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            {/* PWA Install Button */}
+            <PWAInstallButton language={language} />
+
             {/* Search Button that opens dedicated Search Page */}
             <button
               onClick={() => {

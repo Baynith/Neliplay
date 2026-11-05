@@ -19,15 +19,141 @@ import { Footer } from './components/Footer';
 
 export type PageView = 'home' | 'movies' | 'genres' | 'details' | 'watch' | 'search';
 
+// Helper to determine route on initial load or browser refresh
+function getRouteFromLocation(movies: Movie[]): {
+  page: PageView;
+  movie: Movie | null;
+  query: string;
+  genre: GenreType | 'All';
+} {
+  if (typeof window === 'undefined') {
+    return { page: 'home', movie: null, query: '', genre: 'All' };
+  }
+
+  const path = window.location.pathname;
+  const searchParams = new URLSearchParams(window.location.search);
+
+  // 1. Watch route: /watch/:id or ?watch=:id
+  let watchId = '';
+  if (path.startsWith('/watch/')) {
+    watchId = decodeURIComponent(path.replace('/watch/', '')).replace(/\/$/, '');
+  } else if (searchParams.has('watch')) {
+    watchId = searchParams.get('watch') || '';
+  }
+
+  if (watchId) {
+    const movie = movies.find(m => m.id === watchId);
+    if (movie) {
+      return { page: 'watch', movie, query: '', genre: 'All' };
+    }
+  }
+
+  // 2. Movie details route: /movie/:id or ?movie=:id
+  let movieId = '';
+  if (path.startsWith('/movie/')) {
+    movieId = decodeURIComponent(path.replace('/movie/', '')).replace(/\/$/, '');
+  } else if (searchParams.has('movie')) {
+    movieId = searchParams.get('movie') || '';
+  }
+
+  if (movieId) {
+    const movie = movies.find(m => m.id === movieId);
+    if (movie) {
+      return { page: 'details', movie, query: '', genre: 'All' };
+    }
+  }
+
+  // 3. Tab routes: /movies, /genres, /search
+  if (path === '/movies' || searchParams.get('tab') === 'movies') {
+    return { page: 'movies', movie: null, query: '', genre: 'All' };
+  }
+
+  if (path === '/genres' || searchParams.get('tab') === 'genres') {
+    return { page: 'genres', movie: null, query: '', genre: 'All' };
+  }
+
+  if (path === '/search' || searchParams.has('q')) {
+    return { page: 'search', movie: null, query: searchParams.get('q') || '', genre: 'All' };
+  }
+
+  return { page: 'home', movie: null, query: '', genre: 'All' };
+}
+
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<PageView>('home');
+  const allMovies = STORED_MOVIES;
+
+  // Initialize page & movie state from current browser URL
+  const initialRoute = getRouteFromLocation(allMovies);
+  const [currentPage, setCurrentPage] = useState<PageView>(initialRoute.page);
   const [previousPage, setPreviousPage] = useState<PageView>('home');
-  const [selectedGenreFilter, setSelectedGenreFilter] = useState<GenreType | 'All'>('All');
-  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedGenreFilter, setSelectedGenreFilter] = useState<GenreType | 'All'>(initialRoute.genre);
+  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(initialRoute.movie);
+  const [searchQuery, setSearchQuery] = useState(initialRoute.query);
   const [language, setLanguage] = useState<'sw' | 'en'>('sw');
 
-  const allMovies = STORED_MOVIES;
+  // Unified navigation function that updates URL and document title
+  const navigate = (page: PageView, movie?: Movie | null, push = true) => {
+    setPreviousPage(currentPage);
+    setCurrentPage(page);
+    if (movie !== undefined) setSelectedMovie(movie);
+
+    let targetUrl = '/';
+    let title = 'NeliPlay Swahili — Your Home of Swahili Entertainment';
+
+    if (page === 'details' && movie) {
+      targetUrl = `/movie/${movie.id}`;
+      title = `${movie.title} | NeliPlay Swahili`;
+    } else if (page === 'watch' && movie) {
+      targetUrl = `/watch/${movie.id}`;
+      title = `Kutazama: ${movie.title} | NeliPlay Swahili`;
+    } else if (page === 'movies') {
+      targetUrl = '/movies';
+      title = 'Katalogi ya Filamu | NeliPlay Swahili';
+    } else if (page === 'genres') {
+      targetUrl = '/genres';
+      title = 'Aina za Filamu | NeliPlay Swahili';
+    } else if (page === 'search') {
+      targetUrl = searchQuery ? `/search?q=${encodeURIComponent(searchQuery)}` : '/search';
+      title = 'Tafuta Filamu | NeliPlay Swahili';
+    }
+
+    if (push && typeof window !== 'undefined' && window.location.pathname !== targetUrl) {
+      window.history.pushState({ page, movieId: movie?.id }, '', targetUrl);
+    }
+    if (typeof document !== 'undefined') {
+      document.title = title;
+    }
+  };
+
+  // Listen to browser Back / Forward (popstate) buttons
+  useEffect(() => {
+    const handlePopState = () => {
+      const route = getRouteFromLocation(allMovies);
+      setCurrentPage(route.page);
+      setSelectedMovie(route.movie);
+      if (route.query) setSearchQuery(route.query);
+
+      if (route.page === 'details' && route.movie) {
+        document.title = `${route.movie.title} | NeliPlay Swahili`;
+      } else if (route.page === 'watch' && route.movie) {
+        document.title = `Kutazama: ${route.movie.title} | NeliPlay Swahili`;
+      } else {
+        document.title = 'NeliPlay Swahili — Your Home of Swahili Entertainment';
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [allMovies]);
+
+  // Sync initial URL on mount if needed
+  useEffect(() => {
+    if (initialRoute.page === 'details' && initialRoute.movie) {
+      document.title = `${initialRoute.movie.title} | NeliPlay Swahili`;
+    } else if (initialRoute.page === 'watch' && initialRoute.movie) {
+      document.title = `Kutazama: ${initialRoute.movie.title} | NeliPlay Swahili`;
+    }
+  }, []);
 
   // Keyboard arrow keys scrolling & TV remote accessibility
   useEffect(() => {
@@ -71,38 +197,36 @@ export default function App() {
 
   // Navigation handlers
   const handleOpenDetails = (movie: Movie) => {
-    setSelectedMovie(movie);
-    setPreviousPage(currentPage === 'watch' ? 'home' : currentPage);
-    setCurrentPage('details');
+    navigate('details', movie, true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handlePlayMovie = (movie: Movie) => {
-    setSelectedMovie(movie);
-    setPreviousPage(currentPage);
-    setCurrentPage('watch');
+    navigate('watch', movie, true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleBackFromDetails = () => {
-    const target = previousPage === 'details' || previousPage === 'watch' ? 'home' : previousPage;
-    setCurrentPage(target);
+    if (typeof window !== 'undefined' && window.history.length > 1) {
+      window.history.back();
+    } else {
+      navigate('home', null, true);
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleBackFromWatch = () => {
     if (selectedMovie) {
-      setCurrentPage('details');
+      navigate('details', selectedMovie, true);
     } else {
-      setCurrentPage('home');
+      navigate('home', null, true);
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectGenreFromExplorer = (genre: GenreType) => {
     setSelectedGenreFilter(genre);
-    setPreviousPage('genres');
-    setCurrentPage('movies');
+    navigate('movies', null, true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -117,10 +241,8 @@ export default function App() {
             : 'home'
         }
         onSelectTab={(tab) => {
-          setPreviousPage(currentPage);
-          setCurrentPage(tab);
           if (tab === 'movies') setSelectedGenreFilter('All');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          navigate(tab, null, true);
         }}
         language={language}
         onToggleLanguage={() => setLanguage(l => (l === 'sw' ? 'en' : 'sw'))}
@@ -344,9 +466,7 @@ export default function App() {
       {currentPage !== 'watch' && (
         <Footer
           onSelectTab={(tab) => {
-            setPreviousPage(currentPage);
-            setCurrentPage(tab);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            navigate(tab, null, true);
           }}
           language={language}
         />

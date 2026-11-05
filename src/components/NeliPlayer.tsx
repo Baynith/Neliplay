@@ -71,6 +71,7 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const [selectedSubtitle, setSelectedSubtitle] = useState<'Off' | 'Kiswahili' | 'English'>('Off');
   const [showIntroSkipToast, setShowIntroSkipToast] = useState(false);
+  const [copiedToast, setCopiedToast] = useState(false);
   const hasSkippedIntroRef = useRef(false);
 
   // Reset skip flag when movie changes
@@ -820,15 +821,27 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
 
                   <button
                     onClick={() => {
+                      const shareUrl = typeof window !== 'undefined' ? `${window.location.origin}/watch/${movie.id}` : '';
                       if (navigator.share) {
                         navigator.share({
                           title: `${movie.title} | NeliPlay Swahili`,
-                          text: movie.synopsisSwahili,
-                          url: window.location.href,
-                        }).catch(() => {});
+                          text: `Tazama filamu ya "${movie.title}" kwenye NeliPlay Swahili:`,
+                          url: shareUrl,
+                        }).catch(() => {
+                          if (navigator.clipboard) {
+                            navigator.clipboard.writeText(shareUrl);
+                            setCopiedToast(true);
+                            setTimeout(() => setCopiedToast(false), 3500);
+                          }
+                        });
+                      } else if (navigator.clipboard) {
+                        navigator.clipboard.writeText(shareUrl);
+                        setCopiedToast(true);
+                        setTimeout(() => setCopiedToast(false), 3500);
                       }
                     }}
                     className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                    title="Shiriki filamu hii / Share movie"
                   >
                     <Share2 className="w-3.5 h-3.5" />
                     <span>Shiriki</span>
@@ -979,6 +992,14 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
         </div>
 
       </div>
+
+      {/* Copy Link Toast Notification */}
+      {copiedToast && (
+        <div className="fixed bottom-6 right-6 z-50 animate-fadeIn bg-slate-900 text-white px-4 py-2.5 rounded-2xl shadow-2xl border border-orange-500/40 text-xs font-bold flex items-center gap-2">
+          <Check className="w-4 h-4 text-emerald-400" />
+          <span>{language === 'sw' ? 'Kiungo cha video kimenakiliwa! 📋' : 'Watch link copied to clipboard!'}</span>
+        </div>
+      )}
     </div>
   );
 };

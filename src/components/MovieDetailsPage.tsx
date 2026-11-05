@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   ArrowLeft, 
   Play, 
@@ -12,7 +12,8 @@ import {
   Volume2,
   Sparkles,
   ExternalLink,
-  Download
+  Download,
+  Check
 } from 'lucide-react';
 import { Movie } from '../types/movie';
 import { NeliImage } from './NeliImage';
@@ -36,6 +37,8 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
   allMovies,
   language,
 }) => {
+  const [copiedToast, setCopiedToast] = useState(false);
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [movie.id]);
@@ -46,17 +49,39 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
     .slice(0, 10);
 
   const handleShare = () => {
+    const shareUrl = typeof window !== 'undefined' ? `${window.location.origin}/movie/${movie.id}` : '';
     if (navigator.share) {
       navigator.share({
         title: `${movie.title} | NeliPlay Swahili`,
-        text: movie.synopsisSwahili,
-        url: window.location.href,
+        text: `Tazama filamu ya "${movie.title}" kwenye NeliPlay Swahili:`,
+        url: shareUrl,
+      }).catch(() => {
+        copyToClipboard(shareUrl);
+      });
+    } else {
+      copyToClipboard(shareUrl);
+    }
+  };
+
+  const copyToClipboard = (url: string) => {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        setCopiedToast(true);
+        setTimeout(() => setCopiedToast(false), 3500);
       }).catch(() => {});
     }
   };
 
   return (
     <div className="min-h-screen pb-20 pt-16 sm:pt-20 animate-fadeIn">
+      {/* Share Toast Notification */}
+      {copiedToast && (
+        <div className="fixed bottom-6 right-6 z-50 animate-fadeIn bg-slate-900 text-white px-4 py-2.5 rounded-2xl shadow-2xl border border-orange-500/40 text-xs font-bold flex items-center gap-2">
+          <Check className="w-4 h-4 text-emerald-400" />
+          <span>{language === 'sw' ? 'Kiungo cha filamu kimenakiliwa! 📋' : 'Movie link copied to clipboard!'}</span>
+        </div>
+      )}
+
       {/* Top sticky sub-nav / Breadcrumb */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <button

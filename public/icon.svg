@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="neliGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A00" />
+      <stop offset="48%" stop-color="#FF2D87" />
+      <stop offset="100%" stop-color="#0066FF" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E24" />
+      <stop offset="100%" stop-color="#0F0F14" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="220" stroke="url(#neliGrad)" stroke-width="12" fill="none" opacity="0.85" />
+  <!-- Stylized N shape with Play arrow integration -->
+  <path d="M150 370 V142 L245 285 L340 142 V370" stroke="url(#neliGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <polygon points="360,256 310,225 310,287" fill="#FF2D87" opacity="0.9" />
+</svg>
