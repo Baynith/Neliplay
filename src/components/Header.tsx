@@ -84,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({
                     : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
-                {language === 'sw' ? 'Filamu (75)' : 'Movies (75)'}
+                {language === 'sw' ? 'Filamu' : 'Movies'}
               </button>
 
               <button
@@ -99,21 +99,6 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 {language === 'sw' ? 'Aina za Filamu' : 'Genres'}
-              </button>
-
-              <button
-                onClick={() => {
-                  onSelectTab('search');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className={`relative py-1 transition-colors cursor-pointer flex items-center gap-1.5 ${
-                  currentTab === 'search'
-                    ? 'text-[#FF2D87] font-bold after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-gradient-to-r after:from-[#FF6A00] after:to-[#FF2D87]'
-                    : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                <Search className="w-3.5 h-3.5 text-[#FF6A00]" />
-                <span>{language === 'sw' ? 'Tafuta' : 'Search'}</span>
               </button>
             </nav>
           </div>

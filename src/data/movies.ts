@@ -43,7 +43,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "invincible-swordsman",
@@ -80,7 +82,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "inside-furioza",
@@ -118,7 +122,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "affinity",
@@ -156,7 +162,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "play-dirty",
@@ -194,7 +202,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-clouds",
@@ -227,7 +237,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-twits",
@@ -266,7 +278,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "stolen-girl",
@@ -304,7 +318,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "death-stranding",
@@ -342,7 +358,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "minions-monsters",
@@ -382,7 +400,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-devil-s-mouth",
@@ -419,7 +439,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-debt-collector",
@@ -457,7 +479,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "colony",
@@ -494,7 +518,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "evolution",
@@ -531,7 +557,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "72-hours",
@@ -568,7 +596,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": true,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "no-ordinary-heist",
@@ -605,7 +635,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "husbands-in-action",
@@ -643,7 +675,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "apex",
@@ -679,7 +713,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "steppenwolf",
@@ -714,7 +750,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "disclosure-day",
@@ -751,7 +789,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "wish",
@@ -789,7 +829,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-spongebob-movie-search-for-squarepants",
@@ -829,7 +871,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "pets-on-a-train",
@@ -869,7 +913,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "zootopia-2",
@@ -909,7 +955,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "in-your-dreams",
@@ -949,7 +997,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "gladiator-underground",
@@ -985,7 +1035,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-orphans",
@@ -1021,7 +1073,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-rip",
@@ -1059,7 +1113,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "anaconda",
@@ -1095,7 +1151,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-internship",
@@ -1131,7 +1189,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "dust-bunny",
@@ -1168,7 +1228,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "killer-whale",
@@ -1206,7 +1268,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "dead-to-rights",
@@ -1244,7 +1308,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-jurassic-games-extinction",
@@ -1284,7 +1350,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-avenger",
@@ -1301,7 +1369,7 @@ export const STORED_MOVIES: Movie[] = [
       "History",
       "Adventure"
     ],
-    "language": "Kiswahili",
+    "language": "English",
     "subtitles": [
       "Kiswahili",
       "English"
@@ -1321,7 +1389,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": true,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": false,
+    "startTimeSeconds": 0
   },
   {
     "id": "hi-five",
@@ -1359,7 +1429,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "baby-assassins",
@@ -1399,7 +1471,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-bad-guys-2",
@@ -1440,7 +1514,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "bride-hard",
@@ -1477,7 +1553,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "forgive-us-all",
@@ -1516,7 +1594,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "battle-of-the-wolf",
@@ -1553,7 +1633,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "under-fire-2025",
@@ -1586,7 +1668,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "bang",
@@ -1622,7 +1706,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "elio",
@@ -1661,7 +1747,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "president-down",
@@ -1697,7 +1785,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "prisoner-of-war",
@@ -1736,7 +1826,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "yadang-the-snitch",
@@ -1776,7 +1868,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "sisu-road-to-revenge",
@@ -1814,7 +1908,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "survival",
@@ -1850,7 +1946,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "escobank",
@@ -1886,7 +1984,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "predator-badlands",
@@ -1924,7 +2024,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "my-super-heroine",
@@ -1962,7 +2064,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-pickup",
@@ -2000,7 +2104,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "hostile-takeover",
@@ -2038,7 +2144,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "40-acres",
@@ -2077,7 +2185,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": true,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "dangerous-animals",
@@ -2114,7 +2224,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "ghost-killer",
@@ -2152,7 +2264,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "kpop-demon-hunters",
@@ -2191,7 +2305,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "a-line-of-fire",
@@ -2228,7 +2344,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "red-sonja",
@@ -2266,7 +2384,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "mission-impossible-the-final-reckoning",
@@ -2304,7 +2424,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "superheroes-on-a-motorcycle-ride-over-the-sea-along-the-supper-spider-man-bridge-gta-5",
@@ -2337,7 +2459,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "spidey-s-best-moments",
@@ -2370,7 +2494,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "goten-s-great-adventure-dragon-ballz-movie-2026",
@@ -2386,7 +2512,7 @@ export const STORED_MOVIES: Movie[] = [
       "Action",
       "Drama"
     ],
-    "language": "Kiswahili",
+    "language": "English",
     "subtitles": [
       "Kiswahili",
       "English"
@@ -2403,7 +2529,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": false,
+    "startTimeSeconds": 0
   },
   {
     "id": "mutiny",
@@ -2439,7 +2567,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "malaikat-malam",
@@ -2477,7 +2607,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "for-my-country",
@@ -2513,7 +2645,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "badland-rising",
@@ -2550,7 +2684,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "alarum",
@@ -2587,7 +2723,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.7
+    "ratingScore": 4.7,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "blade-of-the-47-ronin",
@@ -2624,7 +2762,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.8
+    "ratingScore": 4.8,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-mongoose",
@@ -2661,7 +2801,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.2
+    "ratingScore": 4.2,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "motor-city",
@@ -2700,7 +2842,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.3
+    "ratingScore": 4.3,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "mayday",
@@ -2736,7 +2880,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.4
+    "ratingScore": 4.4,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "the-runner",
@@ -2773,7 +2919,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.5
+    "ratingScore": 4.5,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   },
   {
     "id": "paw-patrol-the-dino-movie",
@@ -2813,7 +2961,9 @@ export const STORED_MOVIES: Movie[] = [
     "trending": false,
     "recentlyAdded": false,
     "popular": false,
-    "ratingScore": 4.6
+    "ratingScore": 4.6,
+    "isSwahiliNarrated": true,
+    "startTimeSeconds": 330
   }
 ];
 

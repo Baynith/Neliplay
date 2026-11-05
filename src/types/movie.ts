@@ -45,6 +45,8 @@ export interface Movie {
   recentlyAdded?: boolean;
   popular?: boolean;
   ratingScore: number;      // 4.9, etc.
+  isSwahiliNarrated?: boolean; // false for Avenger & Goten, true for DJ dubbed movies
+  startTimeSeconds?: number;  // 330 (5m 30s) to skip DJ intro ads
 }
 
 export interface GenreCategory {

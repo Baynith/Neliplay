@@ -71,8 +71,8 @@ export const MoviesCatalogue: React.FC<MoviesCatalogueProps> = ({
             </h1>
             <p className="text-xs sm:text-sm text-slate-500 font-medium">
               {language === 'sw'
-                ? `Jumla ya filamu ${filteredMovies.length} za Kiswahili tayari kutazamwa bure.`
-                : `${filteredMovies.length} Kiswahili movies available to stream.`}
+                ? 'Mkusanyiko rasmi wa filamu za Kiswahili tayari kutazamwa bure.'
+                : 'Official collection of Swahili movies ready to stream for free.'}
             </p>
           </div>
 

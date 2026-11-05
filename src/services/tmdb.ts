@@ -3,7 +3,7 @@
  * Configured with User TMDB API Key: 9e571833942d8651835053f5dc09363d
  */
 
-export const TMDB_API_KEY = '9e571833942d8651835053f5dc09363d';
+export const TMDB_API_KEY = (import.meta as any).env?.VITE_TMDB_API_KEY || '9e571833942d8651835053f5dc09363d';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 export const TMDB_IMAGE_BASE_POSTER = 'https://image.tmdb.org/t/p/w500';
 export const TMDB_IMAGE_BASE_BACKDROP = 'https://image.tmdb.org/t/p/w1280';

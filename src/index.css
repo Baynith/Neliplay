@@ -117,3 +117,10 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Smart TV & Keyboard Focus Navigation Ring */
+*:focus-visible {
+  outline: 3px solid #FF6A00 !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 16px rgba(255, 106, 0, 0.6) !important;
+}

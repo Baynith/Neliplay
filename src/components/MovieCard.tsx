@@ -34,10 +34,19 @@ export const MovieCard: React.FC<MovieCardProps> = ({
     else if (onOpenDetails) onOpenDetails(movie);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      handleOpen();
+    }
+  };
+
   return (
     <div
+      tabIndex={0}
       onClick={handleOpen}
-      className={`group relative flex-none cursor-pointer select-none rounded-2xl overflow-hidden bg-white border border-orange-100/80 transition-all duration-300 hover:scale-105 hover:z-20 hover:shadow-xl hover:shadow-[#FF6A00]/15 hover:border-[#FF6A00]/60 ${
+      onKeyDown={handleKeyDown}
+      className={`group relative flex-none cursor-pointer select-none rounded-2xl overflow-hidden bg-white border border-orange-100/80 transition-all duration-300 hover:scale-105 hover:z-20 hover:shadow-xl hover:shadow-[#FF6A00]/15 hover:border-[#FF6A00]/60 focus-visible:scale-105 focus-visible:ring-4 focus-visible:ring-[#FF6A00] focus-visible:outline-none ${
         isPoster 
           ? 'w-[135px] xs:w-[150px] sm:w-[170px] md:w-[190px] lg:w-[210px]' 
           : 'w-[220px] xs:w-[250px] sm:w-[280px] md:w-[310px]'
@@ -80,11 +89,17 @@ export const MovieCard: React.FC<MovieCardProps> = ({
           </button>
         </div>
 
-        {/* Top Badges */}
+        {/* Top Badges: Show Swahili Dub only for Swahili-narrated movies */}
         <div className="absolute top-2 left-2 flex items-center gap-1 z-10 pointer-events-none">
-          <span className="px-2 py-0.5 rounded-md bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-[9px] font-black uppercase shadow-sm">
-            Swahili Dub
-          </span>
+          {movie.isSwahiliNarrated !== false ? (
+            <span className="px-2 py-0.5 rounded-md bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-[9px] font-black uppercase shadow-sm">
+              Swahili Dub
+            </span>
+          ) : (
+            <span className="px-2 py-0.5 rounded-md bg-slate-900/90 text-white text-[9px] font-black uppercase shadow-sm border border-white/20">
+              English
+            </span>
+          )}
         </div>
       </div>
 

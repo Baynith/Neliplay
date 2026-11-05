@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Flame, Sparkles, TrendingUp, Film, ShieldAlert, Smile, Clapperboard, HeartHandshake } from 'lucide-react';
 import { Movie, GenreType } from './types/movie';
 import { STORED_MOVIES, GENRES } from './data/movies';
@@ -28,6 +28,37 @@ export default function App() {
   const [language, setLanguage] = useState<'sw' | 'en'>('sw');
 
   const allMovies = STORED_MOVIES;
+
+  // Keyboard arrow keys scrolling & TV remote accessibility
+  useEffect(() => {
+    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+      // Don't intercept if user is typing in search input
+      const tag = (e.target as HTMLElement)?.tagName?.toLowerCase();
+      if (tag === 'input' || tag === 'textarea' || (e.target as HTMLElement)?.isContentEditable) {
+        return;
+      }
+
+      // During video playback, player handles arrow keys for seek/volume
+      if (currentPage === 'watch') return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        window.scrollBy({ top: 220, behavior: 'smooth' });
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        window.scrollBy({ top: -220, behavior: 'smooth' });
+      } else if (e.key === 'PageDown') {
+        e.preventDefault();
+        window.scrollBy({ top: window.innerHeight * 0.75, behavior: 'smooth' });
+      } else if (e.key === 'PageUp') {
+        e.preventDefault();
+        window.scrollBy({ top: -window.innerHeight * 0.75, behavior: 'smooth' });
+      }
+    };
+
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+  }, [currentPage]);
 
   // Curated Content Rows from the 75 Swahili Movies
   const trendingMovies = allMovies.filter(m => m.trending);
@@ -127,7 +158,6 @@ export default function App() {
                       style={{ backgroundColor: g.color }}
                     />
                     <span>{language === 'sw' ? g.swahiliName : g.name}</span>
-                    <span className="text-[10px] text-slate-400">({g.movieCount})</span>
                   </button>
                 ))}
               </div>

@@ -11,7 +11,8 @@ import {
   Heart,
   Volume2,
   Sparkles,
-  ExternalLink
+  ExternalLink,
+  Download
 } from 'lucide-react';
 import { Movie } from '../types/movie';
 import { NeliImage } from './NeliImage';
@@ -129,12 +130,19 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
               {/* Right: Info & Play CTAs */}
               <div className="flex-1 space-y-5 text-white">
                 
-                {/* Badges strip */}
+                {/* Badges strip: Swahili Dubbed vs English */}
                 <div className="flex flex-wrap items-center gap-2.5">
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-xs font-black tracking-wide shadow-md uppercase">
-                    <Volume2 className="w-3.5 h-3.5" />
-                    <span>Simulizi ya Kiswahili</span>
-                  </span>
+                  {movie.isSwahiliNarrated !== false ? (
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-xs font-black tracking-wide shadow-md uppercase">
+                      <Volume2 className="w-3.5 h-3.5" />
+                      <span>Simulizi ya Kiswahili</span>
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800 text-white text-xs font-bold tracking-wide shadow-md uppercase border border-slate-700">
+                      <Volume2 className="w-3.5 h-3.5" />
+                      <span>Lugha Asilia (English)</span>
+                    </span>
+                  )}
 
                   <span className="px-2.5 py-1 rounded-md bg-white/20 backdrop-blur-md text-xs font-bold text-white border border-white/20">
                     {movie.ageRating}
@@ -199,7 +207,7 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
                   ))}
                 </div>
 
-                {/* Main Play CTA Button */}
+                {/* Main Play CTA Button and Download Button */}
                 <div className="pt-3 flex flex-wrap items-center gap-4">
                   <button
                     onClick={() => onPlayMovie(movie)}
@@ -208,6 +216,17 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
                     <Play className="w-6 h-6 fill-current transition-transform group-hover:scale-110" />
                     <span>{language === 'sw' ? 'Tazama Filamu Sasa' : 'Watch Movie Now'}</span>
                   </button>
+
+                  <a
+                    href={movie.videoUrl}
+                    download={`${movie.title.replace(/[^a-zA-Z0-9]/g, '_')}.mp4`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2.5 px-6 sm:px-8 py-4 rounded-full text-sm sm:text-base font-bold text-slate-900 bg-white/95 hover:bg-white border border-white/80 shadow-md hover:scale-105 active:scale-95 transition-all cursor-pointer group"
+                  >
+                    <Download className="w-5 h-5 text-[#FF6A00] transition-transform group-hover:translate-y-0.5" />
+                    <span>{language === 'sw' ? 'Pakua Filamu' : 'Download Movie'}</span>
+                  </a>
                 </div>
 
               </div>

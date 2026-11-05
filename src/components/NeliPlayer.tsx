@@ -22,7 +22,9 @@ import {
   ChevronDown,
   ChevronUp,
   Expand,
-  CheckCircle2
+  CheckCircle2,
+  Download,
+  FastForward
 } from 'lucide-react';
 import { Movie } from '../types/movie';
 import { optimizeTmdbImage } from '../utils/imageOptimizer';
@@ -62,12 +64,21 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
   const [isSaved, setIsSaved] = useState(false);
   const [isDescExpanded, setIsDescExpanded] = useState(false);
 
-  // Settings & Captions state
+  // Settings & Captions state (Default OFF as requested by user)
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isCaptionsOpen, setIsCaptionsOpen] = useState(false);
   const [selectedQuality, setSelectedQuality] = useState('1080p');
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
-  const [selectedSubtitle, setSelectedSubtitle] = useState<'Off' | 'Kiswahili' | 'English'>('Kiswahili');
+  const [selectedSubtitle, setSelectedSubtitle] = useState<'Off' | 'Kiswahili' | 'English'>('Off');
+  const [showIntroSkipToast, setShowIntroSkipToast] = useState(false);
+  const hasSkippedIntroRef = useRef(false);
+
+  // Reset skip flag when movie changes
+  useEffect(() => {
+    hasSkippedIntroRef.current = false;
+    setShowIntroSkipToast(false);
+    setCurrentSourceIndex(0);
+  }, [movie.id]);
 
   // Multi-stream fallbacks with Bunny Stream support:
   // 1. Direct Bunny CDN with no-referrer policy
@@ -367,9 +378,20 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
                 }}
                 onLoadedMetadata={() => {
                   if (videoRef.current) {
-                    setDuration(videoRef.current.duration);
+                    const dur = videoRef.current.duration;
+                    setDuration(dur);
                     setIsLoading(false);
                     setHasError(false);
+
+                    // Auto-start at 5 mins 30 secs (330s) for all Swahili/DJ narrated movies
+                    const targetSkipTime = movie.isSwahiliNarrated !== false ? (movie.startTimeSeconds ?? 330) : 0;
+                    if (!hasSkippedIntroRef.current && targetSkipTime > 0 && dur > targetSkipTime) {
+                      videoRef.current.currentTime = targetSkipTime;
+                      setCurrentTime(targetSkipTime);
+                      hasSkippedIntroRef.current = true;
+                      setShowIntroSkipToast(true);
+                      setTimeout(() => setShowIntroSkipToast(false), 5500);
+                    }
                   }
                 }}
                 onWaiting={() => setIsLoading(true)}
@@ -377,11 +399,51 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
                   setIsLoading(false);
                   setIsPlaying(true);
                   setHasError(false);
+
+                  // Secondary check in case metadata event didn't trigger skip
+                  const targetSkipTime = movie.isSwahiliNarrated !== false ? (movie.startTimeSeconds ?? 330) : 0;
+                  if (!hasSkippedIntroRef.current && targetSkipTime > 0 && videoRef.current && videoRef.current.currentTime < 5) {
+                    videoRef.current.currentTime = targetSkipTime;
+                    setCurrentTime(targetSkipTime);
+                    hasSkippedIntroRef.current = true;
+                    setShowIntroSkipToast(true);
+                    setTimeout(() => setShowIntroSkipToast(false), 5500);
+                  }
                 }}
                 onError={handleStreamError}
                 onClick={togglePlay}
                 className="w-full h-full object-contain cursor-pointer"
               />
+
+              {/* DJ Intro Ad Auto-Skipped Notification Toast */}
+              {showIntroSkipToast && (
+                <div className="absolute top-4 left-4 z-30 animate-fadeIn flex items-center gap-2.5 bg-black/90 backdrop-blur-md px-3.5 py-2 rounded-xl border border-orange-500/40 text-white shadow-xl text-xs sm:text-sm">
+                  <div className="w-6 h-6 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] flex items-center justify-center shrink-0 shadow-xs">
+                    <FastForward className="w-3.5 h-3.5 text-white" />
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-bold text-white block">
+                      {language === 'sw' ? 'Matangazo ya DJ Yamerukwa ⚡' : 'DJ Intro Ads Skipped ⚡'}
+                    </span>
+                    <span className="text-[11px] text-slate-300">
+                      {language === 'sw' ? 'Filamu imeanza 05:30 (dakika 5 na sekunde 30)' : 'Stream auto-started at 05:30'}
+                    </span>
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (videoRef.current) {
+                        videoRef.current.currentTime = 0;
+                        setCurrentTime(0);
+                      }
+                      setShowIntroSkipToast(false);
+                    }}
+                    className="ml-2 px-2.5 py-1 rounded-lg bg-white/20 hover:bg-white/30 text-[11px] font-bold text-white transition-all cursor-pointer hover:scale-105 active:scale-95"
+                  >
+                    {language === 'sw' ? 'Anza 00:00' : 'Start 0:00'}
+                  </button>
+                </div>
+              )}
 
               {/* Top-Right NeliPlay Signature Watermark Badge (Non-obstructive) */}
               <div className="absolute top-4 right-4 z-20 pointer-events-none select-none flex items-center gap-1.5 bg-black/45 backdrop-blur-md px-3 py-1 rounded-full border border-white/10 opacity-75 hover:opacity-100 transition-opacity">
@@ -686,9 +748,15 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
               {/* Title & Badges */}
               <div className="space-y-1.5">
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="px-2.5 py-0.5 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-[11px] font-black uppercase shadow-xs">
-                    Simulizi ya Kiswahili
-                  </span>
+                  {movie.isSwahiliNarrated !== false ? (
+                    <span className="px-2.5 py-0.5 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] text-white text-[11px] font-black uppercase shadow-xs">
+                      Simulizi ya Kiswahili
+                    </span>
+                  ) : (
+                    <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-100 text-[11px] font-black uppercase shadow-xs">
+                      Lugha Asilia (English Audio)
+                    </span>
+                  )}
                   <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[11px] font-bold">
                     HD 1080p
                   </span>
@@ -726,8 +794,20 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
                   </div>
                 </div>
 
-                {/* Actions: Like, Share, Save */}
-                <div className="flex items-center gap-2">
+                {/* Actions: Download, Like, Share, Save */}
+                <div className="flex flex-wrap items-center gap-2">
+                  <a
+                    href={movie.videoUrl}
+                    download={`${movie.title}.mp4`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-gradient-to-r from-[#FF6A00] to-[#FF2D87] hover:opacity-95 text-white text-xs font-bold transition-all cursor-pointer shadow-xs hover:scale-105 active:scale-95"
+                    title={language === 'sw' ? 'Pakua filamu hii' : 'Download this movie'}
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>{language === 'sw' ? 'Pakua' : 'Download'}</span>
+                  </a>
+
                   <button
                     onClick={() => setIsLiked(!isLiked)}
                     className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer shadow-2xs ${
@@ -885,7 +965,9 @@ export const NeliPlayer: React.FC<NeliPlayerProps> = ({
                     <div className="flex items-center gap-2 text-[10px] text-slate-400 font-medium">
                       <span>{rec.releaseYear}</span>
                       <span>·</span>
-                      <span className="text-[#FF6A00] font-semibold">Kiswahili</span>
+                      <span className={rec.isSwahiliNarrated !== false ? 'text-[#FF6A00] font-semibold' : 'text-slate-500 font-semibold'}>
+                        {rec.isSwahiliNarrated !== false ? 'Kiswahili' : 'English'}
+                      </span>
                     </div>
                   </div>
                 </div>

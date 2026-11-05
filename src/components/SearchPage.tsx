@@ -109,7 +109,7 @@ export const SearchPage: React.FC<SearchPageProps> = ({
               : 'bg-white hover:bg-orange-50/50 text-slate-700 border border-slate-200/80'
           }`}
         >
-          {language === 'sw' ? 'Zote (75)' : 'All (75)'}
+          {language === 'sw' ? 'Zote' : 'All'}
         </button>
 
         {GENRE_CATEGORIES.map((g) => (
@@ -127,7 +127,6 @@ export const SearchPage: React.FC<SearchPageProps> = ({
               style={{ backgroundColor: g.color }}
             />
             <span>{language === 'sw' ? g.swahiliName : g.name}</span>
-            <span className="text-[10px] opacity-70">({g.movieCount})</span>
           </button>
         ))}
       </div>
@@ -140,8 +139,8 @@ export const SearchPage: React.FC<SearchPageProps> = ({
             {language === 'sw' ? 'Matokeo ya Filamu' : 'Movie Results'}
           </h2>
         </div>
-        <span className="text-xs sm:text-sm font-bold text-slate-600 bg-white px-3 py-1 rounded-full border border-orange-100 shadow-xs">
-          {filteredMovies.length} {language === 'sw' ? 'zimepatikana' : 'movies found'}
+        <span className="text-xs font-bold text-slate-500 bg-white px-3 py-1 rounded-full border border-orange-100 shadow-xs">
+          {language === 'sw' ? 'Filamu' : 'Movies'}
         </span>
       </div>
 
