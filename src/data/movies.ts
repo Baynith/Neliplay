@@ -1,0 +1,2977 @@
+import { Movie, GenreCategory } from '../types/movie';
+
+/**
+ * ============================================================================
+ * NELIPLAY SWAHILI — 75 MOVIES DATABASE (SIMULIZI ZA KISWAHILI / SWAHILI DUBBED)
+ * ============================================================================
+ * Imehifadhiwa ndani ya code ikiwa na TMDB IDs, viungo vya streaming, picha halisi
+ * za mabango ya TMDB na mandhari (backdrops), muda kamili na aina (genres).
+ * ============================================================================
+ */
+export const STORED_MOVIES: Movie[] = [
+  {
+    "id": "never-a-thief",
+    "tmdbId": 1500522,
+    "title": "Never a Thief",
+    "titlePrefix": "Never a",
+    "titleHighlight": "Thief",
+    "overview": "An insurance investigator infiltrates a Pacific island relic-smuggling gang with his lock-picking skills, navigates perilous heists to help police bust the syndicate, and unravels the mystery behind his father's disappearance.",
+    "synopsisSwahili": "An insurance investigator infiltrates a Pacific island relic-smuggling gang with his lock-picking skills, navigates perilous heists to help police bust the syndicate, and unravels ...",
+    "releaseYear": 2025,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Mak Ho-Pong",
+    "cast": [
+      "Simon Yam",
+      "Henry Prince Mak",
+      "Clara Lee Sung-min",
+      "Chin Ka-Lok"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ui5Ujx256vAI5JbXzeTGVwMkVhs.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/vuq5EfA9ED9vnxQgEV4zWEAFmKJ.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/9d14eb59-d3a0-4b01-9010-ba9bc5492865/play_480p.mp4",
+    "featured": true,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "invincible-swordsman",
+    "tmdbId": 1416651,
+    "title": "Invincible Swordsman",
+    "titlePrefix": "Invincible",
+    "titleHighlight": "Swordsman",
+    "overview": "Linghu Chong, a swordsman longing to leave the martial arts world, is drawn back into the clash between good and evil. On his journey, he unexpectedly crosses paths with Dongfang Bubai, the enigmatic leader of the Demonic Sect, leading to an unpredictable and tumultuous adventure through the martial arts realm.",
+    "synopsisSwahili": "Linghu Chong, a swordsman longing to leave the martial arts world, is drawn back into the clash between good and evil. On his journey, he unexpectedly crosses paths with Dongfang B...",
+    "releaseYear": 2025,
+    "runtime": "1h 58m",
+    "runtimeMinutes": 118,
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Luo Yiwei",
+    "cast": [
+      "Zhang Yuqi",
+      "Tim Huang",
+      "Terence Yin Chi-wai",
+      "Sammo Hung Kam-bo"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7CJ38uqEGEC0IkqVUE5FSzWywAj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/eLAXARUSBAFAofE7u7ULMob2QWS.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/4bec01b2-c551-4b5c-baf1-32ac620f4bcc/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "inside-furioza",
+    "tmdbId": 1072699,
+    "title": "Inside Furioza",
+    "titlePrefix": "Inside",
+    "titleHighlight": "Furioza",
+    "overview": "In the wake of murder, new Furioza leader Golden claims the reins of his violent and formidable hooligan gang and takes on a new focus across borders.",
+    "synopsisSwahili": "In the wake of murder, new Furioza leader Golden claims the reins of his violent and formidable hooligan gang and takes on a new focus across borders....",
+    "releaseYear": 2025,
+    "runtime": "2h 46m",
+    "runtimeMinutes": 166,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Cyprian T. Olencki",
+    "cast": [
+      "Mateusz Damięcki",
+      "Szymon Bobrowski",
+      "Pola Gonciarz",
+      "Weronika Książkiewicz-Nathaniel"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dbe1zKVKNBIczdmRcm7jxEphYLz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/2yo2k8CmgZxfBQYAZ8TnHIYzEme.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/2e9c968f-271f-45f4-ac90-216fcf8dd638/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "affinity",
+    "tmdbId": 1480295,
+    "title": "Affinity",
+    "titleHighlight": "Affinity",
+    "overview": "Chilean martial-arts star Marko Zaror is Bruno, an ex-SEAL struggling with PTSD. He lives a life in fear of his demons until one day when he discovers a beautiful woman with no past of her own. Together they begin to build a life, but when she disappears, Bruno must return to his violent past if he’s going to save her from a shocking conspiracy.",
+    "synopsisSwahili": "Chilean martial-arts star Marko Zaror is Bruno, an ex-SEAL struggling with PTSD. He lives a life in fear of his demons until one day when he discovers a beautiful woman with no pas...",
+    "releaseYear": 2025,
+    "runtime": "1h 21m",
+    "runtimeMinutes": 81,
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Thriller",
+      "Mystery"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Brandon Slagle",
+    "cast": [
+      "Marko Zaror",
+      "Brooke Ence",
+      "Jane Mirro",
+      "Louis Mandylor"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/WKwQOPh2mQPRL12jSu2yFHk4A7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ekpdjcuVVU2LIFM3EyePYykYZ4b.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/7735279f-692f-456f-8a91-cf8145ed905a/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "play-dirty",
+    "tmdbId": 941109,
+    "title": "Play Dirty",
+    "titlePrefix": "Play",
+    "titleHighlight": "Dirty",
+    "overview": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world's richest man.",
+    "synopsisSwahili": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world's richest man....",
+    "releaseYear": 2025,
+    "runtime": "2h 8m",
+    "runtimeMinutes": 128,
+    "genres": [
+      "Crime",
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Shane Black",
+    "cast": [
+      "Mark Wahlberg",
+      "LaKeith Stanfield",
+      "Rosa Salazar",
+      "Keegan-Michael Key"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/k6tdiMTO39RQj3dhfspuzprfoe0.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/ce6ed963-a4fc-43fd-9583-1a80311bf683/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "the-clouds",
+    "title": "The Clouds",
+    "titlePrefix": "The",
+    "titleHighlight": "Clouds",
+    "overview": "Pablo Prieto leads a gang of thieves whose time is running out. Hunted by a relentless judge, will Pablo be able to escape his fate or will he have to pay for his crimes?...",
+    "synopsisSwahili": "Pablo Prieto leads a gang of thieves whose time is running out. Hunted by a relentless judge, will Pablo be able to escape his fate or will he have to pay for his crimes?...",
+    "releaseYear": 2024,
+    "runtime": "1h 41m",
+    "runtimeMinutes": 101,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "NeliPlay Studios",
+    "cast": [
+      "NeliPlay Cast"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_face/lH54bfA72eJSEPK96lxLn8J49tP.jpg",
+    "backdropUrl": "https://media.themoviedb.org/t/p/w533_and_h300_face/eX4D4EpRsK3RgqckJSFf5l1hriM.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/b1af2f8d-e3a1-42f0-ba8b-89785d835654/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "the-twits",
+    "tmdbId": 927254,
+    "title": "The Twits",
+    "titlePrefix": "The",
+    "titleHighlight": "Twits",
+    "overview": "When the meanest, nastiest villains pull a trick to take over their town, two brave children team up with a family of magical animals to bring them down.",
+    "synopsisSwahili": "When the meanest, nastiest villains pull a trick to take over their town, two brave children team up with a family of magical animals to bring them down....",
+    "releaseYear": 2025,
+    "runtime": "1h 39m",
+    "runtimeMinutes": 99,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Phil Johnston",
+    "cast": [
+      "Margo Martindale",
+      "Johnny Vegas",
+      "Maitreyi Ramakrishnan",
+      "Ryan Anderson Lopez"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zNP1nMRFqa9qAkpCkLeHa1V7kDR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/i4o2aPGlnsxfPmDPF5lmlgjScyv.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/371bbd82-61c8-427e-b8ac-e15a1e041f89/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "stolen-girl",
+    "tmdbId": 1280450,
+    "title": "Stolen Girl",
+    "titlePrefix": "Stolen",
+    "titleHighlight": "Girl",
+    "overview": "In 1993, Maureen’s six-year-old daughter Amina is snuck out of the country by her ex-husband, Karim. After years of unsuccessful attempts to find her, Maureen intersects with a professional retriever of internationally abducted children who promises to help her find Amina in exchange for her collaboration.",
+    "synopsisSwahili": "In 1993, Maureen’s six-year-old daughter Amina is snuck out of the country by her ex-husband, Karim. After years of unsuccessful attempts to find her, Maureen intersects with a pro...",
+    "releaseYear": 2025,
+    "runtime": "1h 50m",
+    "runtimeMinutes": 110,
+    "genres": [
+      "Thriller",
+      "Action",
+      "Adventure"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "James Kent",
+    "cast": [
+      "Kate Beckinsale",
+      "Scott Eastwood",
+      "Jordan Duvigneau",
+      "Matt Craven"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/njU663VbT88zZjsJYizfWcam6sS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/qcDDn7WeKBenM4nLlOPXAeJ4hpg.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/845977c0-04d7-46d5-aa30-01a5bbaab994/play_720p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "death-stranding",
+    "tmdbId": 1172012,
+    "title": "Death Stranding",
+    "titlePrefix": "Death",
+    "titleHighlight": "Stranding",
+    "overview": "Around the turn of the millennium and with the entire city in chaos, the government decides to eradicate the corrupt underground entertainment industry and money laundering practices to revitalize order and reduce crime.",
+    "synopsisSwahili": "Around the turn of the millennium and with the entire city in chaos, the government decides to eradicate the corrupt underground entertainment industry and money laundering practic...",
+    "releaseYear": 2023,
+    "runtime": "1h 37m",
+    "runtimeMinutes": 97,
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Danny Pang Phat",
+    "cast": [
+      "Wallace Chung",
+      "Francis Ng Chun-yu",
+      "Cheung Siu-fai",
+      "Myolie Wu Hang-yee"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fH8RLXpAT1V32DebOdPCv45rbuZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/xSJgMtKbHBEJ3Ezr7GsrTHaZRNo.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/8522ac9a-9cf8-4252-a498-ebfd0af0ae83/play_360p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "minions-monsters",
+    "tmdbId": 1315772,
+    "title": "Minions & Monsters",
+    "titlePrefix": "Minions &",
+    "titleHighlight": "Monsters",
+    "overview": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+    "synopsisSwahili": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then ...",
+    "releaseYear": 2026,
+    "runtime": "1h 30m",
+    "runtimeMinutes": 90,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Pierre Coffin",
+    "cast": [
+      "Pierre Coffin",
+      "Trey Parker",
+      "Christoph Waltz",
+      "Allison Janney"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/0d39c2e3-4c5a-46c7-82be-1f1be373fc65/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "the-devil-s-mouth",
+    "tmdbId": 1481343,
+    "title": "The Devil's Mouth",
+    "titlePrefix": "The Devil's",
+    "titleHighlight": "Mouth",
+    "overview": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+    "synopsisSwahili": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in thei...",
+    "releaseYear": 2026,
+    "runtime": "1h 46m",
+    "runtimeMinutes": 106,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Jeff Wadlow",
+    "cast": [
+      "Kathryn Newton",
+      "Lana Condor",
+      "Nico Hiraga",
+      "Gavin Casalegno"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/pLyaH6k69OJHnONSmN3R7Peh6HE.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/18f40b13-987f-489b-b5fc-536d81aa6e1d/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "the-debt-collector",
+    "tmdbId": 1630409,
+    "title": "The Debt Collector",
+    "titlePrefix": "The Debt",
+    "titleHighlight": "Collector",
+    "overview": "Tormented by past mistakes and a terminal diagnosis, an ex-debt collector returns to the underworld to protect the victims of a violent organization.",
+    "synopsisSwahili": "Tormented by past mistakes and a terminal diagnosis, an ex-debt collector returns to the underworld to protect the victims of a violent organization....",
+    "releaseYear": 2026,
+    "runtime": "2h 14m",
+    "runtimeMinutes": 134,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Surapong Ploensang",
+    "cast": [
+      "Nadech Kugimiya",
+      "Pittaya Saechua",
+      "Chaiwat Thongsaeng",
+      "Nuanprang Treechit"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/dk68ykaNd3HdrDJyPJqEGsgvag7.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/768a4666-7cd9-407d-bbd6-66e16f9227cf/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "colony",
+    "tmdbId": 1375646,
+    "title": "Colony",
+    "titleHighlight": "Colony",
+    "overview": "Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside with no escape, Se-jeong along with a small group of survivors must fight to stay alive while the infected undergo horrific transformations.",
+    "synopsisSwahili": "Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside ...",
+    "releaseYear": 2026,
+    "runtime": "2h 3m",
+    "runtimeMinutes": 123,
+    "genres": [
+      "Horror",
+      "Action",
+      "Science Fiction"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Yeon Sang-ho",
+    "cast": [
+      "Gianna Jun",
+      "Koo Kyo-hwan",
+      "Ji Chang-wook",
+      "Kim Shin-rock"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/bbed11e0-85b7-479e-b8f9-8d8223ae75cf/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "evolution",
+    "tmdbId": 1571101,
+    "title": "Evolution",
+    "titleHighlight": "Evolution",
+    "overview": "When an alien substance mixes Zoe’s DNA with that of her exotic pets, a hilarious adventure begins where humans turn into animals, animals turn into humans, and everyone must come to an agreement to save the world.",
+    "synopsisSwahili": "When an alien substance mixes Zoe’s DNA with that of her exotic pets, a hilarious adventure begins where humans turn into animals, animals turn into humans, and everyone must come ...",
+    "releaseYear": 2026,
+    "runtime": "1h 34m",
+    "runtimeMinutes": 94,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Julio Soto Gúrpide",
+    "cast": [
+      "Elena Jiménez",
+      "Claudia Caneda",
+      "Juan Amador Pulido Fernández",
+      "Luis Posada"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8tMZOnlFUa6zxlEF84QfghXnjuD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/zihczzQLrtNufyLoofytqQi6yep.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a24cad57-92af-4203-a054-aa82a4419312/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "72-hours",
+    "tmdbId": 949838,
+    "title": "72 HOURS",
+    "titlePrefix": "72",
+    "titleHighlight": "HOURS",
+    "overview": "To save his career, a 40-year-old ad exec joins a crew of twentysomethings for a wild Miami bachelor party after they mistakenly add him to a group chat.",
+    "synopsisSwahili": "To save his career, a 40-year-old ad exec joins a crew of twentysomethings for a wild Miami bachelor party after they mistakenly add him to a group chat....",
+    "releaseYear": 2026,
+    "runtime": "1h 45m",
+    "runtimeMinutes": 105,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Tim Story",
+    "cast": [
+      "Kevin Hart",
+      "Marcello Hernández",
+      "Mason Gooding",
+      "Kam Patterson"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/686a718f-168b-4c1a-ad58-9a3a2637cdfd/play_480p.mp4",
+    "featured": false,
+    "trending": true,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "no-ordinary-heist",
+    "tmdbId": 1624961,
+    "title": "No Ordinary Heist",
+    "titlePrefix": "No Ordinary",
+    "titleHighlight": "Heist",
+    "overview": "Inspired by the true 2004 Northern Bank robbery, two feuding bank employees are forced to execute Ireland’s biggest heist after criminals kidnap their families and threaten to kill them.",
+    "synopsisSwahili": "Inspired by the true 2004 Northern Bank robbery, two feuding bank employees are forced to execute Ireland’s biggest heist after criminals kidnap their families and threaten to kill...",
+    "releaseYear": 2026,
+    "runtime": "1h 39m",
+    "runtimeMinutes": 99,
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Colin McIvor",
+    "cast": [
+      "Eddie Marsan",
+      "Éanna Hardwicke",
+      "Michelle Fairley",
+      "Eva Birthistle"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/9fyXrAPfVlN4W5nH7MFiHy9SD1y.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/4a485491-6808-43d0-b71e-f37361fbe5ec/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "husbands-in-action",
+    "tmdbId": 1451344,
+    "title": "Husbands in Action",
+    "titlePrefix": "Husbands in",
+    "titleHighlight": "Action",
+    "overview": "A detective teams up with his ex-wife's new husband to chase down her kidnappers. Can this unlikely duo put aside their differences for one wild rescue?",
+    "synopsisSwahili": "A detective teams up with his ex-wife's new husband to chase down her kidnappers. Can this unlikely duo put aside their differences for one wild rescue?...",
+    "releaseYear": 2026,
+    "runtime": "1h 50m",
+    "runtimeMinutes": 110,
+    "genres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Park Gyu-tae",
+    "cast": [
+      "Jin Sun-kyu",
+      "Gong Myoung",
+      "Kim Ji-seok",
+      "Yoon Kyung-ho"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ciLsGoyr0B8demTLDbLJmEUOHI5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/doasZ6ROBhD0xIRsvAFdTeZsKhp.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a3f8a964-4f7a-4739-a2e2-7e216e0e7758/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "apex",
+    "tmdbId": 1318447,
+    "title": "Apex",
+    "titleHighlight": "Apex",
+    "overview": "A grieving woman pushing her limits on a solo adventure in the Australian wild is ensnared in a twisted game with a cunning killer who thinks she's prey.",
+    "synopsisSwahili": "A grieving woman pushing her limits on a solo adventure in the Australian wild is ensnared in a twisted game with a cunning killer who thinks she's prey....",
+    "releaseYear": 2026,
+    "runtime": "1h 36m",
+    "runtimeMinutes": 96,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Baltasar Kormákur",
+    "cast": [
+      "Charlize Theron",
+      "Taron Egerton",
+      "Eric Bana",
+      "Caitlin Stasey"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/9nzfyiYbmTUXWC4B2kwjl4NAlqO.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/186a689c-f52b-4c14-a506-0e89d64ec822/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "steppenwolf",
+    "tmdbId": 1023122,
+    "title": "Steppenwolf",
+    "titleHighlight": "Steppenwolf",
+    "overview": "Tamara is searching for her missing son in a small town consumed by riots and violence. In a desperate attempt to get him back, she decides to offer a reward to an amoral former investigator whose methods prove to be sadistic. Determined, Tamara decides to complete the mission with the nihilistic detective, no matter what the cost.",
+    "synopsisSwahili": "Tamara is searching for her missing son in a small town consumed by riots and violence. In a desperate attempt to get him back, she decides to offer a reward to an amoral former in...",
+    "releaseYear": 2024,
+    "runtime": "1h 42m",
+    "runtimeMinutes": 102,
+    "genres": [
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Adilkhan Yerzhanov",
+    "cast": [
+      "Berik Aitzhanov",
+      "Anna Starchenko",
+      "Azamat Nigmanov",
+      "Kuantay Abdimadi"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gbtZpT3VfyUmSlga3wWHDtBJ7kW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/2J6DSeuMQqVyoPGPg5wW8Eh9XHo.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/aa85405e-62bb-4587-97b7-813bd49f7e98/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "disclosure-day",
+    "tmdbId": 1275779,
+    "title": "Disclosure Day",
+    "titlePrefix": "Disclosure",
+    "titleHighlight": "Day",
+    "overview": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
+    "synopsisSwahili": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phe...",
+    "releaseYear": 2026,
+    "runtime": "2h 26m",
+    "runtimeMinutes": 146,
+    "genres": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Steven Spielberg",
+    "cast": [
+      "Emily Blunt",
+      "Josh O'Connor",
+      "Colin Firth",
+      "Eve Hewson"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg",
+    "videoUrl": "https://archive.org/details/tmnt2003ai_202409/Teenage+Mutant+Ninja+Turtles+(2003)+-+S01E25+-+The+Search+for+Splinter+Part+1+%5B1080p+DVDRip+Upscale+V2%5D%5BSX%5D.mkv",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "wish",
+    "tmdbId": 1022796,
+    "title": "Wish",
+    "titleHighlight": "Wish",
+    "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+    "synopsisSwahili": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a mo...",
+    "releaseYear": 2023,
+    "runtime": "1h 35m",
+    "runtimeMinutes": 95,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Adventure"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Chris Buck",
+    "cast": [
+      "Ariana DeBose",
+      "Chris Pine",
+      "Alan Tudyk",
+      "Angelique Cabral"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nesuSdJakNkf0zs7OfoasB6Clxf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/bee5e87a-8ab8-42e0-8cb8-2c68eaa7702d/playlist.m3u8",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "the-spongebob-movie-search-for-squarepants",
+    "tmdbId": 991494,
+    "title": "The SpongeBob Movie: Search for SquarePants",
+    "titlePrefix": "The SpongeBob Movie: Search for",
+    "titleHighlight": "SquarePants",
+    "overview": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
+    "synopsisSwahili": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventur...",
+    "releaseYear": 2025,
+    "runtime": "1h 28m",
+    "runtimeMinutes": 88,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Animation",
+      "Comedy",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Derek Drymon",
+    "cast": [
+      "Tom Kenny",
+      "Mark Hamill",
+      "Clancy Brown",
+      "Bill Fagerbakke"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/473380b8-0347-4fc6-a24d-963d80a888d0/play_720p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "pets-on-a-train",
+    "tmdbId": 1107216,
+    "title": "Pets on a Train",
+    "titlePrefix": "Pets on a",
+    "titleHighlight": "Train",
+    "overview": "When a train unexpectedly starts up, taking only pets with it, the animals discover that Hans, a badger with a grudge is behind it all. While the crash seems inevitable, the animals can count on Falcon, a roguish Raccoon who will do anything to save them.",
+    "synopsisSwahili": "When a train unexpectedly starts up, taking only pets with it, the animals discover that Hans, a badger with a grudge is behind it all. While the crash seems inevitable, the animal...",
+    "releaseYear": 2025,
+    "runtime": "1h 26m",
+    "runtimeMinutes": 86,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Thriller",
+      "Family"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Benoît Daffis",
+    "cast": [
+      "Damien Ferrette",
+      "Hervé Jolly",
+      "Kaycie Chase",
+      "Frantz Confiac"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/b10qy1KwrfmH0MGS2rBUJ0BxgYB.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/3Gjo73aMqNWxNdBa7PeEj7AXJ3E.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/6011567d-a1ad-4884-8191-8318bffdf07e/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "zootopia-2",
+    "tmdbId": 1084242,
+    "title": "Zootopia 2",
+    "titlePrefix": "Zootopia",
+    "titleHighlight": "2",
+    "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+    "synopsisSwahili": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and...",
+    "releaseYear": 2025,
+    "runtime": "1h 48m",
+    "runtimeMinutes": 108,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Family"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Jared Bush",
+    "cast": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Ke Huy Quan",
+      "Fortune Feimster"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/afdebdfd-ad76-4a6d-a0bc-ce088408cb33/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "in-your-dreams",
+    "tmdbId": 1117857,
+    "title": "In Your Dreams",
+    "titlePrefix": "In Your",
+    "titleHighlight": "Dreams",
+    "overview": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+    "synopsisSwahili": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family....",
+    "releaseYear": 2025,
+    "runtime": "1h 27m",
+    "runtimeMinutes": 87,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Alexander Woo",
+    "cast": [
+      "Jolie Hoang-Rappaport",
+      "Elias Janssen",
+      "Simu Liu",
+      "Craig Robinson"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/cTuFz80FozP54Aob9TYl4mF1wKk.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/0ae84d0a-607d-4918-96c5-c3dcb7b3160b/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "gladiator-underground",
+    "tmdbId": 1499984,
+    "title": "Gladiator Underground",
+    "titlePrefix": "Gladiator",
+    "titleHighlight": "Underground",
+    "overview": "Two brothers compete in the world's deadliest underground fighting tournament, where they must decide whether to play by the rules or to cast their honor aside and team up to bring down the dark syndicate running the tournament.",
+    "synopsisSwahili": "Two brothers compete in the world's deadliest underground fighting tournament, where they must decide whether to play by the rules or to cast their honor aside and team up to bring...",
+    "releaseYear": 2025,
+    "runtime": "1h 31m",
+    "runtimeMinutes": 91,
+    "genres": [
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Chaya Supannarat",
+    "cast": [
+      "D.Y. Sao",
+      "Andy Le",
+      "Brian Le",
+      "Apasiri Kulthanan"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qLN16AeIjS5P5Kk5B6pBi1Mh1mi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/O50sdY6JEwpU7cQRaFtTO9eSAk.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/564bdd2e-6cc6-443f-8b18-009220ea53a5/play_720p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "the-orphans",
+    "tmdbId": 1244975,
+    "title": "The Orphans",
+    "titlePrefix": "The",
+    "titleHighlight": "Orphans",
+    "overview": "Gab and Driss, childhood friends on bad terms since they left the orphanage, now have opposite lives - one is a cop with the IGPN, the other a fixer for thugs. When their first love dies in a suspicious accident, her 17-year-old daughter, Leïla, takes Gab's gun and sets off on the trail of a powerful organization willing to do anything to cover the case up. Forced to team up, the orphans must stop her before she crosses a line she can't return from...",
+    "synopsisSwahili": "Gab and Driss, childhood friends on bad terms since they left the orphanage, now have opposite lives - one is a cop with the IGPN, the other a fixer for thugs. When their first lov...",
+    "releaseYear": 2025,
+    "runtime": "1h 35m",
+    "runtimeMinutes": 95,
+    "genres": [
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Olivier Schneider",
+    "cast": [
+      "Alban Lenoir",
+      "Dali Benssalah",
+      "Sonia Faïdi",
+      "Anouk Grinberg"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gEV2G1oXTJVSFZLgMdUwVLTvWZE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/z4hZZQ1GRuNGdeeWfKZIt8PXrmX.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/e5130ea8-9979-4cc1-9f22-b0f31e164de4/play_720p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "the-rip",
+    "tmdbId": 1306368,
+    "title": "The Rip",
+    "titlePrefix": "The",
+    "titleHighlight": "Rip",
+    "overview": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question.",
+    "synopsisSwahili": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question....",
+    "releaseYear": 2026,
+    "runtime": "1h 53m",
+    "runtimeMinutes": 113,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Joe Carnahan",
+    "cast": [
+      "Matt Damon",
+      "Ben Affleck",
+      "Teyana Taylor",
+      "Steven Yeun"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/kwNIQW7egAmI66sb0zIugMbpCfU.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/b4af45e9-69ec-4008-8667-99a4c051a545/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "anaconda",
+    "tmdbId": 1252428,
+    "title": "Anaconda",
+    "titleHighlight": "Anaconda",
+    "overview": "A struggling circus crew gets deceived by its former partner, as it embarks on a tour in Thailand. During the journey through a Southeast Asian rainforest, they encounter attacks by a giant python. They meet a mysterious man named Jeff who offers to help, but they soon realize he's a poacher. As they search for Jeff's boat, they face life-and-death struggles with the python and Jeff himself.",
+    "synopsisSwahili": "A struggling circus crew gets deceived by its former partner, as it embarks on a tour in Thailand. During the journey through a Southeast Asian rainforest, they encounter attacks b...",
+    "releaseYear": 2024,
+    "runtime": "1h 24m",
+    "runtimeMinutes": 84,
+    "genres": [
+      "Adventure",
+      "Horror"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Xiang Qiuliang",
+    "cast": [
+      "Nita Hsia Jo-yen",
+      "Terence Yin Chi-wai",
+      "Wang Xingchen",
+      "Wang Gang"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pPfsEXzfk2URkQ1OxhUShAXdxMr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/gSVk4r8Q4R8aeGY0hhEG3bE0QzL.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/609c464b-a98a-468a-9af1-71f2213dc611/play_720p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "the-internship",
+    "tmdbId": 1584215,
+    "title": "The Internship",
+    "titlePrefix": "The",
+    "titleHighlight": "Internship",
+    "overview": "A CIA-trained assassin recruits other graduates from her secret childhood program, The Internship, to violently destroy the organization. The CIA fights back with deadly force.",
+    "synopsisSwahili": "A CIA-trained assassin recruits other graduates from her secret childhood program, The Internship, to violently destroy the organization. The CIA fights back with deadly force....",
+    "releaseYear": 2026,
+    "runtime": "1h 31m",
+    "runtimeMinutes": 91,
+    "genres": [
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "James Bamford",
+    "cast": [
+      "Lizzy Greene",
+      "Megan Boone",
+      "Sky Katz",
+      "Philip Winchester"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fYqSOkix4rbDiZW0ACNnvZCpT6X.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/eUERZRVjCTNdgnESlQxyaOJ2d4K.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a4828a3c-54bf-4ebd-b3ef-4fcb79e9f9e7/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "dust-bunny",
+    "tmdbId": 1043197,
+    "title": "Dust Bunny",
+    "titlePrefix": "Dust",
+    "titleHighlight": "Bunny",
+    "overview": "Ten-year-old Aurora asks her hitman neighbor to kill the monster under her bed that she claims ate her family. To protect her, he must battle an onslaught of assassins while accepting that some monsters are real.",
+    "synopsisSwahili": "Ten-year-old Aurora asks her hitman neighbor to kill the monster under her bed that she claims ate her family. To protect her, he must battle an onslaught of assassins while accept...",
+    "releaseYear": 2025,
+    "runtime": "1h 46m",
+    "runtimeMinutes": 106,
+    "genres": [
+      "Fantasy",
+      "Horror"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Bryan Fuller",
+    "cast": [
+      "Mads Mikkelsen",
+      "Sophie Sloan",
+      "Sheila Atim",
+      "David Dastmalchian"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/AecGG1XVCmkk7fT10ko3FC0dLIP.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/ce150f59-81ed-48a3-b2bc-4991dcded7c1/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "killer-whale",
+    "tmdbId": 1412598,
+    "title": "Killer Whale",
+    "titlePrefix": "Killer",
+    "titleHighlight": "Whale",
+    "overview": "Follows best friends Maddie and Trish as they find themselves trapped in a remote lagoon with the dangerous killer whale named Ceto.",
+    "synopsisSwahili": "Follows best friends Maddie and Trish as they find themselves trapped in a remote lagoon with the dangerous killer whale named Ceto....",
+    "releaseYear": 2026,
+    "runtime": "1h 29m",
+    "runtimeMinutes": 89,
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Jo-Anne Brechin",
+    "cast": [
+      "Virginia Gardner",
+      "Mel Jarnson",
+      "Mitchell Hope",
+      "Isaac Crawley"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xC6zdIoIHjhOIFmjNyGgtzhuhiF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ykigHs1OIyqqV04zfFqIlSHp546.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/6c7f4de3-33cf-4eeb-9088-bc0af954b6ad/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "dead-to-rights",
+    "tmdbId": 1500536,
+    "title": "Dead to Rights",
+    "titlePrefix": "Dead to",
+    "titleHighlight": "Rights",
+    "overview": "During the 1937 Nanjing Massacre, a postman poses as a photo developer, helping Japanese forces while secretly sheltering Chinese refugees. He later risks his life evacuating them and revealing evidence of the atrocities.",
+    "synopsisSwahili": "During the 1937 Nanjing Massacre, a postman poses as a photo developer, helping Japanese forces while secretly sheltering Chinese refugees. He later risks his life evacuating them ...",
+    "releaseYear": 2025,
+    "runtime": "2h 17m",
+    "runtimeMinutes": 137,
+    "genres": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Shen Ao",
+    "cast": [
+      "Liu Haoran",
+      "Wang Chuanjun",
+      "Gao Ye",
+      "Wang Xiao"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rx9xTly73NssFHPg9gKrX9tJdDI.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/iyIYSfyMTRlaLQWzKWxNRPVkt8Z.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/b9004c21-183c-4568-90a3-e0245dfa199d/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "the-jurassic-games-extinction",
+    "tmdbId": 1496378,
+    "title": "The Jurassic Games: Extinction",
+    "titlePrefix": "The Jurassic Games:",
+    "titleHighlight": "Extinction",
+    "overview": "In this thrilling sequel to The Jurassic Games, 10 death row inmates enter a deadly VR show to battle dinosaurs for a second chance at life. But when the system malfunctions, the carnage turns real. With a new host and higher stakes, survival is no longer just a game.",
+    "synopsisSwahili": "In this thrilling sequel to The Jurassic Games, 10 death row inmates enter a deadly VR show to battle dinosaurs for a second chance at life. But when the system malfunctions, the c...",
+    "releaseYear": 2025,
+    "runtime": "1h 42m",
+    "runtimeMinutes": 102,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Fantasy",
+      "Adventure",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Ryan Bellgardt",
+    "cast": [
+      "Katie Burgess",
+      "Ryan Francis",
+      "Todd Terry",
+      "Todd Jenkins"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oaspw8GHJHGJRDvVVERmt8iDb5K.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/sGxY8a2TdWGXQZaZmBHTTDZtYi1.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/9acaafda-35c3-44ef-9efc-188e0ab94ddf/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "the-avenger",
+    "tmdbId": 194798,
+    "title": "The Avenger",
+    "titlePrefix": "The",
+    "titleHighlight": "Avenger",
+    "overview": "Aeneas leads escapees from the Trojan war to new land in Italy, and must deal with new threats to his people.",
+    "synopsisSwahili": "Aeneas leads escapees from the Trojan war to new land in Italy, and must deal with new threats to his people....",
+    "releaseYear": 1962,
+    "runtime": "1h 45m",
+    "runtimeMinutes": 105,
+    "genres": [
+      "History",
+      "Adventure"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Giorgio Venturini",
+    "cast": [
+      "Steve Reeves",
+      "Carla Marlier",
+      "Liana Orfei",
+      "Giacomo Rossi Stuart"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pTCn0tRqC13guWjgTtjPGHV3Bw6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/sVcHpxD2JKpTgrql2kKOqdWSGwm.jpg",
+    "videoUrl": "https://dn600303.us.archive.org/0/items/Avenger_201605/Avenger.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": true,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "hi-five",
+    "tmdbId": 793058,
+    "title": "Hi-Five",
+    "titleHighlight": "Hi-Five",
+    "overview": "After receiving organs from a mysterious donor, five ordinary people gain incredible powers and team up as \"HI-FIVE\" to stop a power-hungry cult leader from absorbing their abilities for godlike domination.",
+    "synopsisSwahili": "In the dead of night, a body donated for organ transplants mysteriously disintegrates into ashes. Soon after, five recipients, given a heart, corneas, lungs, liver, and kidneys, be...",
+    "releaseYear": 2025,
+    "runtime": "1h 59m",
+    "runtimeMinutes": 119,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Kang Hyoung-chul",
+    "cast": [
+      "Lee Jae-in",
+      "Ahn Jae-hong",
+      "Yoo Ah-in",
+      "Ra Mi-ran"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xhSn3NkcBpqzUx9NOYa6CdSwwXZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/imAihjOnerraFPxAeKOlugUu1YE.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/70eda3b5-84f7-427a-9025-c9b1bb960e61/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "baby-assassins",
+    "tmdbId": 847143,
+    "title": "Baby Assassins",
+    "titlePrefix": "Baby",
+    "titleHighlight": "Assassins",
+    "overview": "Two high school girls who are about to graduate also happen to be highly-skilled assassins. When the organization they work for orders them to share a room, their relationship quickly sours. But when they become targets of the yakuza, the girls realize they'll have to work together to survive.",
+    "synopsisSwahili": "Two high school girls who are about to graduate also happen to be highly-skilled assassins. When the organization they work for orders them to share a room, their relationship quic...",
+    "releaseYear": 2021,
+    "runtime": "1h 35m",
+    "runtimeMinutes": 95,
+    "genres": [
+      "Action",
+      "Drama",
+      "Comedy",
+      "Mystery",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Yugo Sakamoto",
+    "cast": [
+      "Akari Takaishi",
+      "Saori Izawa",
+      "Mone Akitani",
+      "Yasukaze Motomiya"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4A3hk4sT4EETeu7XqbLKFDFtFFu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/zVkfZ8Wa7u9zKHsKujv95Kjlpez.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/81edcb74-41a6-43fd-9dec-a9bafac4eb78/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "the-bad-guys-2",
+    "tmdbId": 1175942,
+    "title": "The Bad Guys 2",
+    "titlePrefix": "The Bad Guys",
+    "titleHighlight": "2",
+    "overview": "The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of criminals they never saw coming: The Bad Girls.",
+    "synopsisSwahili": "The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of crim...",
+    "releaseYear": 2025,
+    "runtime": "1h 44m",
+    "runtimeMinutes": 104,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Crime",
+      "Adventure",
+      "Animation",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Pierre Perifel",
+    "cast": [
+      "Sam Rockwell",
+      "Marc Maron",
+      "Awkwafina",
+      "Craig Robinson"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/42949c61-bced-44bf-9149-6635654035d0/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "bride-hard",
+    "tmdbId": 1124619,
+    "title": "Bride Hard",
+    "titlePrefix": "Bride",
+    "titleHighlight": "Hard",
+    "overview": "Sam is a secret agent whose toughest mission to date is pleasing her bride-to-be best friend at a lavish destination wedding. When a team of mercenaries crashes the party and takes the guests hostage, Sam is thrown into a fight unlike any before — one where she can’t risk blowing her cover or ruining the big day. As she takes on the bad guys in a high-stakes battle disguised as a fairy-tale affair, she realizes the real threat might be closer than she thinks.",
+    "synopsisSwahili": "Sam is a secret agent whose toughest mission to date is pleasing her bride-to-be best friend at a lavish destination wedding. When a team of mercenaries crashes the party and takes...",
+    "releaseYear": 2025,
+    "runtime": "1h 45m",
+    "runtimeMinutes": 105,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Simon West",
+    "cast": [
+      "Rebel Wilson",
+      "Anna Camp",
+      "Anna Chlumsky",
+      "Da'Vine Joy Randolph"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3mExdWLSxAiUCb4NMcYmxSkO7n4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/2DcD4Hh80SW7YVpwckkiEFRZX06.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/e22662e5-2c25-44ef-9c15-5f4cdbce3ab0/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "forgive-us-all",
+    "tmdbId": 1443894,
+    "title": "Forgive Us All",
+    "titlePrefix": "Forgive Us",
+    "titleHighlight": "All",
+    "overview": "In a post-apocalyptic world, a virus has transformed humans into violently deranged cannibals. A bereaved mother has lost everything and takes refuge in an isolated mountain cabin, until a desperate wounded stranger arrives with a story of hope.",
+    "synopsisSwahili": "In a post-apocalyptic world, a virus has transformed humans into violently deranged cannibals. A bereaved mother has lost everything and takes refuge in an isolated mountain cabin,...",
+    "releaseYear": 2025,
+    "runtime": "1h 33m",
+    "runtimeMinutes": 93,
+    "genres": [
+      "Horror",
+      "Western",
+      "Thriller",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Jordana Stott",
+    "cast": [
+      "Lily Sullivan",
+      "Callan Mulvey",
+      "Richard Roxburgh",
+      "Lance Giles"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bT7sMDsvWNeIGgZ6ZsisNdBcHdq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/l3qnMiVwuWxBikOpBcYpUHKUBdN.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/3766fcd4-76dd-4dbf-8d1b-80f1eb3883f0/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "battle-of-the-wolf",
+    "tmdbId": 1531905,
+    "title": "Battle of the Wolf",
+    "titlePrefix": "Battle of the",
+    "titleHighlight": "Wolf",
+    "overview": "Flight attendants Zhang Zhiyong and Yang Man team up to battle international criminals on a flight home, protecting passengers and thwarting a terrorist plot.",
+    "synopsisSwahili": "Flight attendants Zhang Zhiyong and Yang Man team up to battle international criminals on a flight home, protecting passengers and thwarting a terrorist plot....",
+    "releaseYear": 2025,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Jingle Ma Choh-Sing",
+    "cast": [
+      "Vincent Zhao Wenzhuo",
+      "Zhao Ziqi",
+      "Wu Xinzun",
+      "Li Zijia"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oyH3Lj4iIqhaSqK4JRRPE79m3vS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ochlEwMqvNQaL9lw4ZcpsfvGuiv.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/61b7e1b4-13b0-4842-8341-4c01a8752931/play_360p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "under-fire-2025",
+    "title": "Under Fire (2025)",
+    "titlePrefix": "Under Fire",
+    "titleHighlight": "(2025)",
+    "overview": "At a Mexican border drug deal, dealers Griff and Abbott meet for an exchange. Both unexpectedly flash badges - Griff's FBI, Abbott's DEA - revealing they're unknowingly working the...",
+    "synopsisSwahili": "At a Mexican border drug deal, dealers Griff and Abbott meet for an exchange. Both unexpectedly flash badges - Griff's FBI, Abbott's DEA - revealing they're unknowingly working the...",
+    "releaseYear": 2024,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "NeliPlay Studios",
+    "cast": [
+      "NeliPlay Cast"
+    ],
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzgyNTEzNGEtMjBkZi00NTNmLWI1NmMtMTdjMjBjMzk1ZGExXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg",
+    "backdropUrl": "https://m.media-amazon.com/images/M/MV5BNmFlOWM4M2EtOGRiNi00MzkyLWJiNTktNzliZmU2ZDg2YTZhXkEyXkFqcGc@._V1_QL75_UX388_.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a06e963c-848a-4f32-bfd2-65c25d4b2888/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "bang",
+    "tmdbId": 1491902,
+    "title": "Bang",
+    "titleHighlight": "Bang",
+    "overview": "Follows a ruthless hitman who, after narrowly escaping a fatal attempt on his life, betrays his gang in an effort to find forgiveness but ends up becoming a target himself.",
+    "synopsisSwahili": "Follows a ruthless hitman who, after narrowly escaping a fatal attempt on his life, betrays his gang in an effort to find forgiveness but ends up becoming a target himself....",
+    "releaseYear": 2025,
+    "runtime": "1h 28m",
+    "runtimeMinutes": 88,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Wych Kaosayananda",
+    "cast": [
+      "Jack Kesy",
+      "Peter Weller",
+      "Tristin Mays",
+      "Kane Kosugi"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8SUzKOqe2ectvhYdSnR7Vq2F3n1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/sW0X1265yuRHUorLKCrJDv9TJD7.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/5c44f4c6-c76b-4ac3-b9bb-1caf4e60625a/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "elio",
+    "tmdbId": 1022787,
+    "title": "Elio",
+    "titleHighlight": "Elio",
+    "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+    "synopsisSwahili": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergala...",
+    "releaseYear": 2025,
+    "runtime": "1h 38m",
+    "runtimeMinutes": 98,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Science Fiction",
+      "Family",
+      "Comedy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Madeline Sharafian",
+    "cast": [
+      "Yonas Kibreab",
+      "Remy Edgerly",
+      "Zoe Saldaña",
+      "Brad Garrett"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ukPu5xYOBAnh5H46uK4aQOirW2b.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/36fdecd1-938a-4de0-9eef-7f778015c137/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "president-down",
+    "tmdbId": 1539746,
+    "title": "President Down",
+    "titlePrefix": "President",
+    "titleHighlight": "Down",
+    "overview": "A secret message warning that the President's pacemaker is compromised sends her team scrambling to stop an unseen enemy demanding $100M by midnight.",
+    "synopsisSwahili": "A secret message warning that the President's pacemaker is compromised sends her team scrambling to stop an unseen enemy demanding $100M by midnight....",
+    "releaseYear": 2025,
+    "runtime": "1h 36m",
+    "runtimeMinutes": 96,
+    "genres": [
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Nick Lyon",
+    "cast": [
+      "Gail O'Grady",
+      "Lorenzo Lamas",
+      "David Chokachi",
+      "Jesse Kove"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fGhd4DurS1rhmNOb7b9EeobQTPe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/mDjsakfVVKMPJyMmxbA9dddFIjQ.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a3bb0bf2-7e79-4b2b-b381-0187a91228c5/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "prisoner-of-war",
+    "tmdbId": 1328803,
+    "title": "Prisoner of War",
+    "titlePrefix": "Prisoner of",
+    "titleHighlight": "War",
+    "overview": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
+    "synopsisSwahili": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargaine...",
+    "releaseYear": 2025,
+    "runtime": "1h 53m",
+    "runtimeMinutes": 113,
+    "genres": [
+      "Action",
+      "War",
+      "Thriller",
+      "History"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Louis Mandylor",
+    "cast": [
+      "Scott Adkins",
+      "Peter Shinkoda",
+      "Michael Copon",
+      "Gabbi Garcia"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uHNuUIdF35dRSLQQ5Ej0aOhmvB3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/dztZteSrSSt5Po1w1PUdsY8P9yw.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/111dabb6-e9eb-4cfd-9bec-1965b7aae8ba/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "yadang-the-snitch",
+    "tmdbId": 1137179,
+    "title": "Yadang: The Snitch",
+    "titlePrefix": "Yadang: The",
+    "titleHighlight": "Snitch",
+    "overview": "Navigating both the criminal underworld and law enforcement agencies, professional snitches called \"yadang\" provide covert information about the drug world to prosecutors and police. When a drug bust at a party attended by high-profile second-generation VIPs entangles those involved into a dangerous conspiracy, a seasoned yadang must do everything in his power not just to make it out on top, but alive.",
+    "synopsisSwahili": "Navigating both the criminal underworld and law enforcement agencies, professional snitches called \"yadang\" provide covert information about the drug world to prosecutors and polic...",
+    "releaseYear": 2025,
+    "runtime": "2h 3m",
+    "runtimeMinutes": 123,
+    "genres": [
+      "Crime",
+      "Action",
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Hwang Byeong-gug",
+    "cast": [
+      "Kang Ha-neul",
+      "Yoo Hai-jin",
+      "Park Hae-joon",
+      "Ryu Kyung-soo"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/y7dsDbG8zVWkrkyOhA6ckZXX1uC.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/9pdoEzieGdUTlRWTAO7QP8q1tIo.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a94e1349-7bf9-4ba8-bf61-9386d1639829/play_360p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "sisu-road-to-revenge",
+    "tmdbId": 1223601,
+    "title": "Sisu: Road to Revenge",
+    "titlePrefix": "Sisu: Road to",
+    "titleHighlight": "Revenge",
+    "overview": "Returning to the house where his family was brutally murdered during the war, \"the man who refuses to die\" dismantles it, loads it on a truck, and is determined to rebuild it somewhere safe in their honor. When the commander who killed his family comes back hellbent on finishing the job, a relentless, eye-popping cross-country chase ensues.",
+    "synopsisSwahili": "Returning to the house where his family was brutally murdered during the war, \"the man who refuses to die\" dismantles it, loads it on a truck, and is determined to rebuild it somew...",
+    "releaseYear": 2025,
+    "runtime": "1h 29m",
+    "runtimeMinutes": 89,
+    "genres": [
+      "Action",
+      "War",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Jalmari Helander",
+    "cast": [
+      "Jorma Tommila",
+      "Stephen Lang",
+      "Richard Brake",
+      "Tommi Korpela"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/roCMOuMQ55Z2TxVx1vZZTevlo0n.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/10MiMMNzWeE53cHhSlfroPiO8vi.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/1f2b56cd-7360-4a5e-8940-a7923ae8004b/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "survival",
+    "tmdbId": 1530356,
+    "title": "Survival",
+    "titleHighlight": "Survival",
+    "overview": "The story of the Northeast Anti-Japanese Allied Forces' rearguard regiment's breakout, reorganization and return to the Northeast battlefield from 1938 to 1945.",
+    "synopsisSwahili": "The story of the Northeast Anti-Japanese Allied Forces' rearguard regiment's breakout, reorganization and return to the Northeast battlefield from 1938 to 1945....",
+    "releaseYear": 2025,
+    "runtime": "1h 47m",
+    "runtimeMinutes": 107,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Gao Qunshu",
+    "cast": [
+      "邵正一",
+      "Zhou Siyu",
+      "Zhou Yunpeng",
+      "Peng Yusi"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/23aaa049-52d5-4fa7-afd0-ef8a3051b400/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "escobank",
+    "tmdbId": 1426083,
+    "title": "Escobank",
+    "titleHighlight": "Escobank",
+    "overview": "A ragtag group of misfits, veterans and ex-cons embark on a perilous journey in the jungles of Colombia to find the buried barrels of cash left behind by legendary drug kingpin Pablo Escobar before his downfall.",
+    "synopsisSwahili": "A ragtag group of misfits, veterans and ex-cons embark on a perilous journey in the jungles of Colombia to find the buried barrels of cash left behind by legendary drug kingpin Pab...",
+    "releaseYear": 2025,
+    "runtime": "1h 37m",
+    "runtimeMinutes": 97,
+    "genres": [
+      "Action",
+      "War"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Orit Liba",
+    "cast": [
+      "Zohar Liba",
+      "Dana Frider",
+      "Angel Bonanni",
+      "George Iskandar"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5G0pPDxAKWgQy24NHBGl8LYPxIH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/cDiEVwx3VWNRny0ctFVVmCuCFSo.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/e6051697-390b-40f5-987b-17bcd686331c/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "predator-badlands",
+    "tmdbId": 1242898,
+    "title": "Predator: Badlands",
+    "titlePrefix": "Predator:",
+    "titleHighlight": "Badlands",
+    "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+    "synopsisSwahili": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary....",
+    "releaseYear": 2025,
+    "runtime": "1h 47m",
+    "runtimeMinutes": 107,
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Dan Trachtenberg",
+    "cast": [
+      "Elle Fanning",
+      "Dimitrius Schuster-Koloamatangi",
+      "Ravi Narayan",
+      "Michael Homick"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a63a91d4-1bfd-4417-a087-c0ecb604b317/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "my-super-heroine",
+    "tmdbId": 1380356,
+    "title": "My Super Heroine",
+    "titlePrefix": "My Super",
+    "titleHighlight": "Heroine",
+    "overview": "In the early days of the Republic, legendary martial artist Ye Ruzhou suffers a severe injury, losing her memory and winding up in the impoverished alley of Minfu Lane. By a twist of fate, she crosses paths with the carefree Chen Awang, and the two fall for each other. When local tyrant Zheng Juehou intensifies his hold over the neighborhood, Ye Ruzhou rises to defend her new community. Her actions, however, draw unforeseen danger, and together with Chen Awang, she faces the challenge to protect Minfu Lane’s hard-won peace.",
+    "synopsisSwahili": "In the early days of the Republic, legendary martial artist Ye Ruzhou suffers a severe injury, losing her memory and winding up in the impoverished alley of Minfu Lane. By a twist ...",
+    "releaseYear": 2024,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Ke Bailong",
+    "cast": [
+      "Cao Yunjin",
+      "Li Mengmeng",
+      "Xu Xiao",
+      "Cui Zhong"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iCXGcf17popICEjdeJ4BNmtnuVp.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/4RImd3sZ1tIq7emF0XJwCOox3j2.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/828f1e5d-b39f-43b2-99ad-0ca4cb687b11/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "the-pickup",
+    "tmdbId": 1106289,
+    "title": "The Pickup",
+    "titlePrefix": "The",
+    "titleHighlight": "Pickup",
+    "overview": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe.",
+    "synopsisSwahili": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe....",
+    "releaseYear": 2025,
+    "runtime": "1h 34m",
+    "runtimeMinutes": 94,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Tim Story",
+    "cast": [
+      "Eddie Murphy",
+      "Pete Davidson",
+      "Keke Palmer",
+      "Eva Longoria"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/y7tjLYcq2ZGy2DNG0ODhGX9Tm60.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/04656195-b38d-4dbf-bcb2-c1bfdd7d9908/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "hostile-takeover",
+    "tmdbId": 1319895,
+    "title": "Hostile Takeover",
+    "titlePrefix": "Hostile",
+    "titleHighlight": "Takeover",
+    "overview": "Follows Pete, a professional hitman, as he faces a group of assassins after the boss of a crime syndicate suspects disloyalty due to his attendance at Workaholics Anonymous meetings.",
+    "synopsisSwahili": "Follows Pete, a professional hitman, as he faces a group of assassins after the boss of a crime syndicate suspects disloyalty due to his attendance at Workaholics Anonymous meeting...",
+    "releaseYear": 2025,
+    "runtime": "1h 29m",
+    "runtimeMinutes": 89,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Michael Hamilton-Wright",
+    "cast": [
+      "淫片网 448832𝟵.com  黄漫片网 448856𝟵.com",
+      "Aimee Stolte",
+      "Dawn Olivieri",
+      "John Littlefield"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/w5XLCxf5WzsqGC94r4O2wOlCY59.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/84a7dca5-e957-45ae-b70a-9c32f62c6823/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "40-acres",
+    "tmdbId": 1319951,
+    "title": "40 Acres",
+    "titlePrefix": "40",
+    "titleHighlight": "Acres",
+    "overview": "Hailey Freeman and her family are the last descendants of African American farmers who settled in rural Canada after the Civil War. In a famine-decimated near future, they now struggle to safeguard their farm, as they make one last stand against a vicious militia hell-bent on taking their 40 Acres.",
+    "synopsisSwahili": "Hailey Freeman and her family are the last descendants of African American farmers who settled in rural Canada after the Civil War. In a famine-decimated near future, they now stru...",
+    "releaseYear": 2025,
+    "runtime": "1h 53m",
+    "runtimeMinutes": 113,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Drama",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "R.T. Thorne",
+    "cast": [
+      "Danielle Deadwyler",
+      "Kataem O'Connor",
+      "Michael Greyeyes",
+      "Milcania Diaz-Rojas"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3zCEo21Y9wVFBgGhgDVWCyvMZ47.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/6m3K1hizm5yoguOsAcIjNSECn5b.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/55833d63-0f9a-4f9e-a541-0956bff3139f/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": true,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "dangerous-animals",
+    "tmdbId": 1285965,
+    "title": "Dangerous Animals",
+    "titlePrefix": "Dangerous",
+    "titleHighlight": "Animals",
+    "overview": "A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feeding to the sharks below.",
+    "synopsisSwahili": "A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feed...",
+    "releaseYear": 2025,
+    "runtime": "1h 38m",
+    "runtimeMinutes": 98,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Sean Byrne",
+    "cast": [
+      "Hassie Harrison",
+      "Jai Courtney",
+      "Josh Heuston",
+      "Rob Carlton"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/775b631f-367b-4be8-8ca3-ac7abfb3038d/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "ghost-killer",
+    "tmdbId": 1330435,
+    "title": "Ghost Killer",
+    "titlePrefix": "Ghost",
+    "titleHighlight": "Killer",
+    "overview": "After being possessed by the ghost of vengeful hitman Kudo, college student Fumika Matsuoka agrees to help him finish his quest for revenge from beyond the grave.",
+    "synopsisSwahili": "After being possessed by the ghost of vengeful hitman Kudo, college student Fumika Matsuoka agrees to help him finish his quest for revenge from beyond the grave....",
+    "releaseYear": 2025,
+    "runtime": "1h 45m",
+    "runtimeMinutes": 105,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Kensuke Sonomura",
+    "cast": [
+      "Akari Takaishi",
+      "Mario Kuroba",
+      "Masanori Mimoto",
+      "Ayaka Higashino"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uKIG4f25QHUpBmBv0MPWOzKMGAM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/vgXjOkMhlGeeAlacqtyQwBkARdS.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/b36ea1bd-806b-49d4-8230-a97357461ed1/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "kpop-demon-hunters",
+    "tmdbId": 803796,
+    "title": "KPop Demon Hunters",
+    "titlePrefix": "KPop Demon",
+    "titleHighlight": "Hunters",
+    "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+    "synopsisSwahili": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats....",
+    "releaseYear": 2025,
+    "runtime": "1h 36m",
+    "runtimeMinutes": 96,
+    "genres": [
+      "Fantasy",
+      "Music",
+      "Comedy",
+      "Animation"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Chris Appelhans",
+    "cast": [
+      "Arden Cho",
+      "May Hong",
+      "Ji-young Yoo",
+      "Ahn Hyo-seop"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/bc93a0df-1f41-4caf-8be7-fa5b0b637a34/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "a-line-of-fire",
+    "tmdbId": 1367575,
+    "title": "A Line of Fire",
+    "titlePrefix": "A Line of",
+    "titleHighlight": "Fire",
+    "overview": "After working as a secret agent in the FBI for ten years, Jack 'Cash' Conry left it all behind after his wife passed in order to dedicate himself to his two daughters. Despite a fulfilling life at home, Cash misses the chance to make an impact and has been considering a return to the force. The decision is made for him when his old partner’s niece Jamie calls him for help, launching Cash right back into a world of danger, corruption and intrigue.",
+    "synopsisSwahili": "After working as a secret agent in the FBI for ten years, Jack 'Cash' Conry left it all behind after his wife passed in order to dedicate himself to his two daughters. Despite a fu...",
+    "releaseYear": 2025,
+    "runtime": "1h 26m",
+    "runtimeMinutes": 86,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Matt Shapira",
+    "cast": [
+      "David A.R. White",
+      "Cuba Gooding Jr.",
+      "Katrina Bowden",
+      "Jason Patric"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jSG2mg1998DUAam6X9EA6SeJmqD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/z8tNyAAnGk2d1XmO1L4i34UmP19.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/99c8458f-9a67-46a0-b27a-2c58a740fed6/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "red-sonja",
+    "tmdbId": 13494,
+    "title": "Red Sonja",
+    "titlePrefix": "Red",
+    "titleHighlight": "Sonja",
+    "overview": "A young girl rises from the ashes of tragedy to become the most feared warrior woman of all time: the She-Devil with a Sword.",
+    "synopsisSwahili": "A young girl rises from the ashes of tragedy to become the most feared warrior woman of all time: the She-Devil with a Sword....",
+    "releaseYear": 2025,
+    "runtime": "1h 51m",
+    "runtimeMinutes": 111,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "MJ Bassett",
+    "cast": [
+      "Matilda Lutz",
+      "Robert Sheehan",
+      "Wallis Day",
+      "Luke Pasqualino"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aE3yh4y0h96CZZpLo0UDFMWZAA9.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/xSD0q1FiuZkvHuy7uscOLbmd1hR.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/94e71b4a-221b-4910-b4f3-1f4b0b0740dc/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "mission-impossible-the-final-reckoning",
+    "tmdbId": 575265,
+    "title": "Mission: Impossible - The Final Reckoning",
+    "titlePrefix": "Mission: Impossible - The Final",
+    "titleHighlight": "Reckoning",
+    "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+    "synopsisSwahili": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments ...",
+    "releaseYear": 2025,
+    "runtime": "2h 50m",
+    "runtimeMinutes": 170,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Christopher McQuarrie",
+    "cast": [
+      "Tom Cruise",
+      "Hayley Atwell",
+      "Ving Rhames",
+      "Simon Pegg"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/538U9snNc2fpnOmYXAPUh3zn31H.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/7320395d-3702-4ba3-907e-c9cd07741956/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "superheroes-on-a-motorcycle-ride-over-the-sea-along-the-supper-spider-man-bridge-gta-5",
+    "title": "Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spider-Man Bridge GTA 5",
+    "titlePrefix": "Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spider-Man Bridge GTA",
+    "titleHighlight": "5",
+    "overview": "#gtalevelup #gtaventure #gta5funnymoments #gtaventure #gtalevelup #gta6 #gta6 #gta5funnymoments #grandtheftautoV Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spi...",
+    "synopsisSwahili": "#gtalevelup #gtaventure #gta5funnymoments #gtaventure #gtalevelup #gta6 #gta6 #gta5funnymoments #grandtheftautoV Superheroes On A Motorcycle Ride Over The Sea Along The Supper& Spi...",
+    "releaseYear": 2024,
+    "runtime": "2h 7m",
+    "runtimeMinutes": 127,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "NeliPlay Studios",
+    "cast": [
+      "NeliPlay Cast"
+    ],
+    "posterUrl": "https://i.ytimg.com/vi/sD-JEof5SY8/maxresdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/sD-JEof5SY8/maxresdefault.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=sD-JEof5SY8",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "spidey-s-best-moments",
+    "title": "Spidey's Best Moments",
+    "titlePrefix": "Spidey's Best",
+    "titleHighlight": "Moments",
+    "overview": "Go webs go! Watch Marvel's Spidey and his Amazing Friends: Spidey, Ghost Spider and Spin save the day in these best moments! ...",
+    "synopsisSwahili": "Go webs go! Watch Marvel's Spidey and his Amazing Friends: Spidey, Ghost Spider and Spin save the day in these best moments! ...",
+    "releaseYear": 2024,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "NeliPlay Studios",
+    "cast": [
+      "NeliPlay Cast"
+    ],
+    "posterUrl": "https://i.ytimg.com/vi/bqSgbSmrJdk/mqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/bqSgbSmrJdk/mqdefault.jpg",
+    "videoUrl": "N/A",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "goten-s-great-adventure-dragon-ballz-movie-2026",
+    "title": "Goten's Great Adventure : Dragon Ballz Movie (2026)",
+    "titlePrefix": "Goten's Great Adventure : Dragon Ballz Movie",
+    "titleHighlight": "(2026)",
+    "overview": "GOTEN’S GREAT ADVENTURE 🔥⚡ Get ready for an incredible adventure filled with action, powerful enemies, friendship, comedy, and unexpected battles! When a new adventure begins, Got...",
+    "synopsisSwahili": "GOTEN’S GREAT ADVENTURE 🔥⚡ Get ready for an incredible adventure filled with action, powerful enemies, friendship, comedy, and unexpected battles! When a new adventure begins, Got...",
+    "releaseYear": 2024,
+    "runtime": "1h 22m",
+    "runtimeMinutes": 82,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "NeliPlay Studios",
+    "cast": [
+      "NeliPlay Cast"
+    ],
+    "posterUrl": "https://poaflix.b-cdn.net/images/verticalBanner-1789131945540.webp",
+    "backdropUrl": "https://poaflix.b-cdn.net/images/horizontalBanner-1789131944068.webp",
+    "videoUrl": "https://vz-876436aa-094.b-cdn.net/7ddc8bd6-2ab2-49f5-bb0d-d5cc3dcb0e33/playlist.m3u8",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "mutiny",
+    "tmdbId": 1288445,
+    "title": "Mutiny",
+    "titleHighlight": "Mutiny",
+    "overview": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+    "synopsisSwahili": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an inter...",
+    "releaseYear": 2026,
+    "runtime": "1h 36m",
+    "runtimeMinutes": 96,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Jean-François Richet",
+    "cast": [
+      "Jason Statham",
+      "Annabelle Wallis",
+      "Roland Møller",
+      "Ramon Tikaram"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/7ec156c3-01ef-43d3-a611-0a80760fd579/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "malaikat-malam",
+    "tmdbId": 1535392,
+    "title": "Malaikat Malam",
+    "titlePrefix": "Malaikat",
+    "titleHighlight": "Malam",
+    "overview": "Azam, a motorcycle workshop owner, balances his daily life activities between caring for his older brother who struggles with depression, participating in illegal street racing, and winning an innocent blind girl's heart.",
+    "synopsisSwahili": "Azam, a motorcycle workshop owner, balances his daily life activities between caring for his older brother who struggles with depression, participating in illegal street racing, an...",
+    "releaseYear": 2026,
+    "runtime": "1h 51m",
+    "runtimeMinutes": 111,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Nazifdin Nasrudin",
+    "cast": [
+      "Syafiq Kyle",
+      "Tracie Sinidol",
+      "Amir Nafis",
+      "Kodi Rasheed"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5fCCZlanV8DMGhz9vGKIqYVPHaG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/n4lmOJZw2TDIzLF6EbQQAAUNdp5.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/2d66ee3a-8902-4d82-b15a-e8970f64e8ca/play_240p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "for-my-country",
+    "tmdbId": 1522838,
+    "title": "For My Country",
+    "titlePrefix": "For My",
+    "titleHighlight": "Country",
+    "overview": "",
+    "synopsisSwahili": "Tazama filamu ya kusisimua ya For My Country yenye simulizi ya kuvutia kwa lugha ya Kiswahili safi kabisa.",
+    "releaseYear": 2025,
+    "runtime": "2h 0m",
+    "runtimeMinutes": 120,
+    "genres": [
+      "War"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "陈冠龙",
+    "cast": [
+      "Wu Chengxuan",
+      "Shui Jiang",
+      "Liu Xinyu",
+      "Wang Ziyuan"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zvRXLLJSNdonMkAlyrmCX8sqYFy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/cvVgE985VarjDjXkUrOSqbvAbQr.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/af9a7ddb-fb2c-40f7-a138-c4d160ed3f86/play_720p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "badland-rising",
+    "tmdbId": 1325614,
+    "title": "Badland Rising",
+    "titlePrefix": "Badland",
+    "titleHighlight": "Rising",
+    "overview": "An ordinary bloke embarks on a 19-hour drive home, unaware of being pursued by two unhinged criminals. Once he discovers their motive, his journey turns into a brutal fight for survival.",
+    "synopsisSwahili": "An ordinary bloke embarks on a 19-hour drive home, unaware of being pursued by two unhinged criminals. Once he discovers their motive, his journey turns into a brutal fight for sur...",
+    "releaseYear": 2026,
+    "runtime": "1h 37m",
+    "runtimeMinutes": 97,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Blair Moore",
+    "cast": [
+      "Nathan Phillips",
+      "Robert Rabiah",
+      "Jeremy Lindsay Taylor",
+      "Aaron Glenane"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/u7rRl06V3320RSeBcircpaeePnr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/kcw0kaZiGCu9RhroFlnjA1g04Yz.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/6f98d7d5-9c96-4b11-9bad-05e7c49613d8/play_360p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.6
+  },
+  {
+    "id": "alarum",
+    "tmdbId": 1249289,
+    "title": "Alarum",
+    "titleHighlight": "Alarum",
+    "overview": "Two married spies caught in the crosshairs of an international intelligence network will stop at nothing to obtain a critical asset. Joe and Lara are agents living off the grid whose quiet retreat at a winter resort is blown to shreds when members of the old guard suspect the two may have joined an elite team of rogue spies, known as Alarum.",
+    "synopsisSwahili": "Two married spies caught in the crosshairs of an international intelligence network will stop at nothing to obtain a critical asset. Joe and Lara are agents living off the grid who...",
+    "releaseYear": 2025,
+    "runtime": "1h 35m",
+    "runtimeMinutes": 95,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Michael Polish",
+    "cast": [
+      "Scott Eastwood",
+      "Sylvester Stallone",
+      "Willa Fitzgerald",
+      "Mike Colter"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ckyYZf5cGTSOwF8LWIRqeThyh18.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/qSOMdbZ6AOdHR999HWwVAh6ALFI.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/8d20aca0-0139-49a1-becd-5c8cf5513527/play_360p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.7
+  },
+  {
+    "id": "blade-of-the-47-ronin",
+    "tmdbId": 732459,
+    "title": "Blade of the 47 Ronin",
+    "titlePrefix": "Blade of the 47",
+    "titleHighlight": "Ronin",
+    "overview": "A new class of warriors emerges among the Samurai clans to keep a sought-after sword from falling into the wrong hands.",
+    "synopsisSwahili": "A new class of warriors emerges among the Samurai clans to keep a sought-after sword from falling into the wrong hands....",
+    "releaseYear": 2022,
+    "runtime": "1h 46m",
+    "runtimeMinutes": 106,
+    "genres": [
+      "Fantasy",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Ron Yuan",
+    "cast": [
+      "Anna Akana",
+      "Mark Dacascos",
+      "Teresa Ting",
+      "Dustin Nguyen"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bIp7UbNKaBBxA9086jLCCRuXA6W.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/2CWJTgfU8SGRZ25hn8L6iujATvk.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/8ebefed1-7c32-475c-9788-bf2fd4d05632/play_360p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.8
+  },
+  {
+    "id": "the-mongoose",
+    "tmdbId": 1294189,
+    "title": "The Mongoose",
+    "titlePrefix": "The",
+    "titleHighlight": "Mongoose",
+    "overview": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely monitored by a fascinated public rooting for his safe getaway.",
+    "synopsisSwahili": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely...",
+    "releaseYear": 2026,
+    "runtime": "1h 39m",
+    "runtimeMinutes": 99,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Mark Vanselow",
+    "cast": [
+      "Liam Neeson",
+      "Marisa Tomei",
+      "Ving Rhames",
+      "Marcus Thomas"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/8d94d1de-2adf-4bd6-9be8-fba65326b798/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.2
+  },
+  {
+    "id": "motor-city",
+    "tmdbId": 87513,
+    "title": "Motor City",
+    "titlePrefix": "Motor",
+    "titleHighlight": "City",
+    "overview": "In 1970s Detroit, John Miller falls for a local gangster's girl and lands in prison for a crime he didn't commit. With his life ruined, Miller plots revenge against the man who took his girl away.",
+    "synopsisSwahili": "In 1970s Detroit, John Miller falls for a local gangster's girl and lands in prison for a crime he didn't commit. With his life ruined, Miller plots revenge against the man who too...",
+    "releaseYear": 2026,
+    "runtime": "1h 44m",
+    "runtimeMinutes": 104,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "16+",
+    "director": "Potsy Ponciroli",
+    "cast": [
+      "Alan Ritchson",
+      "Ben Foster",
+      "Shailene Woodley",
+      "Lionel Boyce"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/d96a16ba-ee47-4ada-b780-4fc810d25d54/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.3
+  },
+  {
+    "id": "mayday",
+    "tmdbId": 1137844,
+    "title": "Mayday",
+    "titleHighlight": "Mayday",
+    "overview": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agent.",
+    "synopsisSwahili": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agen...",
+    "releaseYear": 2026,
+    "runtime": "1h 51m",
+    "runtimeMinutes": 111,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Jonathan Goldstein",
+    "cast": [
+      "Ryan Reynolds",
+      "Kenneth Branagh",
+      "Marcin Dorociński",
+      "Maria Bakalova"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/c08e40d4-643f-4d84-a89f-1c1759c58891/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.4
+  },
+  {
+    "id": "the-runner",
+    "tmdbId": 1386315,
+    "title": "The Runner",
+    "titlePrefix": "The",
+    "titleHighlight": "Runner",
+    "overview": "Maia Marten, a brilliant London lawyer, has her life shattered by a single call on her morning run: her son has been taken. To get him back, she must keep running, obey every ruthless command, and trust no one-each second a test of how far a mother will go to save her child.",
+    "synopsisSwahili": "Maia Marten, a brilliant London lawyer, has her life shattered by a single call on her morning run: her son has been taken. To get him back, she must keep running, obey every ruthl...",
+    "releaseYear": 2026,
+    "runtime": "1h 26m",
+    "runtimeMinutes": 86,
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "13+",
+    "director": "Kevin Macdonald",
+    "cast": [
+      "Gal Gadot",
+      "Damian Lewis",
+      "Rory Wilmot",
+      "Alfred Enoch"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/a04ddc9d-1d5d-4b0f-8d99-691acaea2de3/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.5
+  },
+  {
+    "id": "paw-patrol-the-dino-movie",
+    "tmdbId": 1185806,
+    "title": "PAW Patrol: The Dino Movie",
+    "titlePrefix": "PAW Patrol: The Dino",
+    "titleHighlight": "Movie",
+    "overview": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
+    "synopsisSwahili": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their b...",
+    "releaseYear": 2026,
+    "runtime": "1h 28m",
+    "runtimeMinutes": 88,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Comedy"
+    ],
+    "language": "Kiswahili",
+    "subtitles": [
+      "Kiswahili",
+      "English"
+    ],
+    "ageRating": "PG",
+    "director": "Cal Brunker",
+    "cast": [
+      "Carter Young",
+      "Mckenna Grace",
+      "Terry Crews",
+      "Meredith MacNeill"
+    ],
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+    "videoUrl": "https://vz-1bb50f2e-8ea.b-cdn.net/ca6d9220-8ab9-4beb-981c-60b7907e6a50/play_480p.mp4",
+    "featured": false,
+    "trending": false,
+    "recentlyAdded": false,
+    "popular": false,
+    "ratingScore": 4.6
+  }
+];
+
+export const GENRE_CATEGORIES: GenreCategory[] = [
+  {
+    "id": "Action",
+    "name": "Action",
+    "swahiliName": "Vitendo",
+    "color": "#FF6A00",
+    "borderGlow": "rgba(255, 106, 0, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/7CJ38uqEGEC0IkqVUE5FSzWywAj.jpg",
+    "description": "High-octane fights, intense car chases, and heroic battles.",
+    "swahiliDescription": "Mapigano makali, uokoaji hatari na msisimko wa kasi ya juu.",
+    "movieCount": 51
+  },
+  {
+    "id": "Drama",
+    "name": "Drama",
+    "swahiliName": "Mazonge",
+    "color": "#FF2D87",
+    "borderGlow": "rgba(255, 45, 135, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg",
+    "description": "Deep emotional stories, relationships, and human experiences.",
+    "swahiliDescription": "Hadithi zenye hisia nzito, changamoto za kimaisha na familia.",
+    "movieCount": 14
+  },
+  {
+    "id": "Comedy",
+    "name": "Comedy",
+    "swahiliName": "Vichekesho",
+    "color": "#FFB300",
+    "borderGlow": "rgba(255, 179, 0, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/zNP1nMRFqa9qAkpCkLeHa1V7kDR.jpg",
+    "description": "Hilarious moments, clever humor, and feel-good stories.",
+    "swahiliDescription": "Vicheko vya kutosha, utani mwingi na burudani ya kuchangamsha moyo.",
+    "movieCount": 22
+  },
+  {
+    "id": "Romance",
+    "name": "Romance",
+    "swahiliName": "Mahaba",
+    "color": "#E91E63",
+    "borderGlow": "rgba(233, 30, 99, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/WKwQOPh2mQPRL12jSu2yFHk4A7.jpg",
+    "description": "Captivating love affairs, emotional bonds, and romantic journeys.",
+    "swahiliDescription": "Mapenzi ya kweli, maumivu ya moyo na mshikamano thabiti.",
+    "movieCount": 2
+  },
+  {
+    "id": "Thriller",
+    "name": "Thriller",
+    "swahiliName": "Msisimko",
+    "color": "#00BCD4",
+    "borderGlow": "rgba(0, 188, 212, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/dbe1zKVKNBIczdmRcm7jxEphYLz.jpg",
+    "description": "Suspense, mysteries, and unexpected plot twists.",
+    "swahiliDescription": "Kukaa mguu sawa, mafumbo yaliyojificha na mshangao mkubwa.",
+    "movieCount": 30
+  },
+  {
+    "id": "Horror",
+    "name": "Horror",
+    "swahiliName": "Kutisha",
+    "color": "#D32F2F",
+    "borderGlow": "rgba(211, 47, 47, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/fH8RLXpAT1V32DebOdPCv45rbuZ.jpg",
+    "description": "Dark legends, supernatural encounters, and spine-chilling stories.",
+    "swahiliDescription": "Hadithi za giza, nguvu za ajabu na hofu inayotikisa moyo.",
+    "movieCount": 7
+  },
+  {
+    "id": "Adventure",
+    "name": "Adventure",
+    "swahiliName": "Matukio",
+    "color": "#0066FF",
+    "borderGlow": "rgba(0, 102, 255, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/ui5Ujx256vAI5JbXzeTGVwMkVhs.jpg",
+    "description": "Expeditions across treacherous worlds and uncharted frontiers.",
+    "swahiliDescription": "Safari za kusisimua kuvuka maeneo mageni na mapito hatari.",
+    "movieCount": 17
+  },
+  {
+    "id": "Crime",
+    "name": "Crime",
+    "swahiliName": "Uhalifu",
+    "color": "#546E7A",
+    "borderGlow": "rgba(84, 110, 122, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/ui5Ujx256vAI5JbXzeTGVwMkVhs.jpg",
+    "description": "Underworld operations, police procedurals, and street justice.",
+    "swahiliDescription": "Upelelezi wa kina, mitandao ya siri ya mitaani na haki inayotafutwa.",
+    "movieCount": 16
+  },
+  {
+    "id": "Family",
+    "name": "Family",
+    "swahiliName": "Familia",
+    "color": "#10B981",
+    "borderGlow": "rgba(16, 185, 129, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+    "description": "Wholesome entertainment suitable for all generations to enjoy together.",
+    "swahiliDescription": "Filamu safi na zenye maadili mema kwa ajili ya wanafamilia wote.",
+    "movieCount": 12
+  },
+  {
+    "id": "Animation",
+    "name": "Animation",
+    "swahiliName": "Katuni / Vibonzo",
+    "color": "#8B5CF6",
+    "borderGlow": "rgba(139, 92, 246, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+    "description": "Fun, vibrant animations and stories loved by both kids and adults.",
+    "swahiliDescription": "Katuni na michoro ya kuvutia yenye kufundisha na kuburudisha.",
+    "movieCount": 12
+  },
+  {
+    "id": "Science Fiction",
+    "name": "Science Fiction",
+    "swahiliName": "Sayansi & Anga",
+    "color": "#6366F1",
+    "borderGlow": "rgba(99, 102, 241, 0.4)",
+    "coverImage": "https://image.tmdb.org/t/p/w500/fH8RLXpAT1V32DebOdPCv45rbuZ.jpg",
+    "description": "Futuristic visions, advanced tech, and planetary explorations.",
+    "swahiliDescription": "Maono ya kesho, teknolojia ya kisasa na safari za anga za mbali.",
+    "movieCount": 6
+  }
+];
+
+export function getFeaturedMovie(): Movie {
+  return STORED_MOVIES.find(m => m.featured) || STORED_MOVIES[0];
+}
+
+export function getTrendingMovies(): Movie[] {
+  return STORED_MOVIES.filter(m => m.trending);
+}
+
+export function getRecentlyAddedMovies(): Movie[] {
+  return STORED_MOVIES.filter(m => m.recentlyAdded);
+}
+
+export function getPopularMovies(): Movie[] {
+  return STORED_MOVIES.filter(m => m.popular);
+}
+
+export function getMoviesByGenre(genre: string): Movie[] {
+  return STORED_MOVIES.filter(m => m.genres.some(g => g.toLowerCase() === genre.toLowerCase()));
+}
+
+export function searchMovies(query: string): Movie[] {
+  if (!query || !query.trim()) return STORED_MOVIES;
+  const q = query.toLowerCase().trim();
+  return STORED_MOVIES.filter(m => 
+    m.title.toLowerCase().includes(q) ||
+    m.overview.toLowerCase().includes(q) ||
+    m.synopsisSwahili.toLowerCase().includes(q) ||
+    m.genres.some(g => g.toLowerCase().includes(q)) ||
+    m.cast.some(c => c.toLowerCase().includes(q)) ||
+    (m.director && m.director.toLowerCase().includes(q))
+  );
+}
+
+export const GENRES = GENRE_CATEGORIES;

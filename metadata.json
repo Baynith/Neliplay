@@ -1,0 +1,6 @@
+{
+  "name": "NeliPlay Swahili",
+  "description": "Your Home of Swahili Entertainment. Premium streaming website featuring Swahili-language movies, original cinema, and cinematic player experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

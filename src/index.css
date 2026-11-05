@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFFDF9;
+    background-image: 
+      radial-gradient(circle at 10% 10%, rgba(255, 106, 0, 0.08) 0%, transparent 45%),
+      radial-gradient(circle at 90% 15%, rgba(255, 45, 135, 0.09) 0%, transparent 45%),
+      radial-gradient(circle at 50% 50%, rgba(255, 140, 0, 0.04) 0%, transparent 55%),
+      radial-gradient(circle at 15% 85%, rgba(255, 45, 135, 0.07) 0%, transparent 45%),
+      radial-gradient(circle at 85% 85%, rgba(255, 106, 0, 0.08) 0%, transparent 45%);
+    background-attachment: fixed;
+    color: #0F172A;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* NeliPlay Signature Brand: Orange + Blue + Pink in logo style */
+.bg-neli-brand {
+  background: linear-gradient(135deg, #FF6A00 0%, #FF2D87 45%, #0066FF 100%);
+}
+
+.text-neli-gradient {
+  background: linear-gradient(135deg, #FF6A00 0%, #FF2D87 45%, #0066FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-neli-orange {
+  color: #FF6A00;
+}
+
+.text-neli-pink {
+  color: #FF2D87;
+}
+
+.text-neli-blue {
+  color: #0066FF;
+}
+
+.bg-neli-play-btn {
+  background: linear-gradient(135deg, #FF6A00 0%, #FF2D87 48%, #0066FF 100%);
+}
+
+.bg-neli-scrubber {
+  background: linear-gradient(90deg, #FF6A00 0%, #FF2D87 48%, #0066FF 100%);
+}
+
+/* Glassmorphism Surfaces for Pink-Orange Radiant Light Canvas */
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 218, 196, 0.7);
+}
+
+.glass-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 106, 0, 0.4);
+  box-shadow: 0 16px 30px -10px rgba(255, 45, 135, 0.15), 0 4px 15px -3px rgba(255, 106, 0, 0.15);
+}
+
+/* Forced Landscape CSS for mobile portrait screens */
+@media (max-width: 820px) and (orientation: portrait) {
+  .force-landscape-container {
+    transform: rotate(90deg) !important;
+    transform-origin: top left !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: 100vh !important;
+    height: 100vw !important;
+    z-index: 9999 !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Light Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF5F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FED7AA;
+  border-radius: 9999px;
+  border: 2px solid #FFF5F0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
